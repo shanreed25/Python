@@ -1,0 +1,2 @@
+# Comparison Operators
+- Compare values and return True or False. Examples include == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), and <= (less than or equal to).

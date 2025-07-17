@@ -2,7 +2,7 @@
 **These basic concepts form the foundation of Python programming. As you continue learning, you will explore more advanced topics, but mastering these fundamentals is crucial for building a strong understanding of Python**
 
 
-## Variables
+## [Variables](./)
 -  containers for storing data
 
 ## Data Types
@@ -34,12 +34,12 @@
 - Combine conditional statements (and, or, not)
 
 ## Control Flow
-### Conditional Statements
+### [Conditional Statements](./ControlFlow/conditionalstatements.md)
 - (if, elif, else): Allow different code blocks to run based on whether certain conditions are True or False
 - if statement executes code if a condition is True.
 - elif (else if) provides additional conditions to check if the preceding if or elif conditions were False.
 - else statement executes code if all preceding conditions are False.
-### Loops
+### [Loops](./ControlFlow/loops.md)
 - Enable repetitive execution of code blocks
 - for loops iterate over sequences like lists or tuples.
 - while loops repeat a block of code as long as a condition remains True.
