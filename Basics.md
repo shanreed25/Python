@@ -50,3 +50,16 @@
 - You define functions using the def keyword, followed by the function name, parentheses containing optional parameters, and a colon.
 - Functions can take input values (arguments) and optionally return output values using the return statement.
 - Defining and using functions helps to organize your code, make it more modular, and promote reusability. 
+--------------------------------------------------------------------------------
+
+# print()
+- print is used to display a value to the console for the programmer to see
+
+# Docstring
+    You can use docstrings to write multiline comments
+- Just enclose your text inside a pair of three double quotes.
+
+# Colons (:)
+- The colon acts as a structural element in Python, guiding the interpreter on how to interpret the code that follows,
+- Especially regarding the organization and execution of code blocks
+
