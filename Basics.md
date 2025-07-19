@@ -63,3 +63,37 @@
 - The colon acts as a structural element in Python, guiding the interpreter on how to interpret the code that follows,
 - Especially regarding the organization and execution of code blocks
 
+- # Rename something and it change for all instances of that name: right click refactor rename
+
+# PascalCase for class names
+
+# snake_case for almost everything else
+
+```
+""" 
+My 
+Multiline 
+Comment 
+"""
+
+```
+### Documenting Functions
+- you can use docstrings to display text when you hover over a function call
+- helps you remember what a function does
+- use docstring just below the function definition and that text will be displayed when you hover over the function call
+
+
+```
+def my_function(num):
+    """Multiplies a number by itself."""
+    return num * num
+```
+
+
+## Variables
+- You can create a variable that represents the absence of a value or a "null" state, using the "None" Keyword
+  - `my_var = None`
+  - the closest equivalent to an "undefined" variable in Python
+
+
+- when working with code that comes after : and you want to  hold on to a variable
