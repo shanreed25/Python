@@ -1,5 +1,39 @@
 # Turtle Module
-- provides a "turtle" object that acts as a drawing pen, moving and drawing on a canvas
+- provides a "turtle" object that acts as a drawing pen, moving and drawing on a canvas to create graphics
+- `turtle.Turtle()` is used to create a new "turtle" object
+  - invokes the constructor of the Turtle class, creating a new instance of a Turtle object
+    - allowing you to create multiple independent turtle objects
+  - represents an on-screen "turtle" or pen 
+  - comes with a set of methods that allow you to manipulate its position, orientation, appearance, and drawing behavior
+
+# Turtle Object Attributes
+- **Position:**
+  - Represents the turtle's current location on the canvas, typically expressed as (x, y) coordinates in pixels. You can retrieve this with `turtle.position()` or `turtle.pos()`.
+- **Heading:**
+  - Indicates the direction the turtle is currently facing, measured in degrees. In standard mode, 0 degrees is east, 90 degrees is north, 180 degrees is west, and 270 degrees is south. You can get the current heading with `turtle.heading()`.
+- **Color:**
+  - Determines the color of the line drawn as the turtle moves and the color of the turtle's shape itself. This can be set using `turtle.color()`.
+- **Pensize/Width:**
+  - Controls the thickness of the line drawn by the turtle's pen. You can get or set this with `turtle.pensize()` or `turtle.width()`
+- **Pendown/Penup state:**
+  - A boolean attribute indicating whether the turtle's pen is currently "down" (drawing) or "up" (not drawing). This state is controlled by methods like `turtle.pendown()` and `turtle.penup()`.
+- **Speed:**
+  - Governs the animation speed of the turtle's movements. It's an integer from 0 (no animation, instant drawing) to 10 (fastest animation). You can set or retrieve it using `turtle.speed()`.
+- **Shape:**
+  - Defines the visual representation of the turtle, such as "arrow", "turtle", "circle", "square", "triangle", or "classic". This can be changed with `turtle.shape()`.
+- **Fillcolor:**
+  - Specifies the color used to fill shapes drawn with `begin_fill()` and `end_fill()`. This is set with turtle.fillcolor().
+
+
+# Initialize New Turtle
+- `my_turtle = Turtle()`
+  - has a shape attribute that has a default value of "arrow
+- you can give the class a shape argumentto change the default shape
+  - `my_turtle = Turtle(shape="turtle)`
+
+
+
+
 
 # Canvas
 - `turtle.Screen()`: a function that returns a singleton TurtleScreen object
