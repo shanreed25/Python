@@ -11,3 +11,6 @@
 
 # 1. Create Snake Body
 - [Here](./snake-game-1.py) is the code
+
+# 2. Move Snake
+- [Here](./snake-game-2.py) is the code
