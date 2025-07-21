@@ -15,7 +15,7 @@ class Food(Turtle):
         self.move_food()
 
 
-    def move_food(self):
+    def move_food(self):# move the food to a random location
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 280)
         self.goto(random_x, random_y)
