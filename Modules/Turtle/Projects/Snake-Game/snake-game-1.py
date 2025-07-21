@@ -17,15 +17,20 @@ my_canvas.title("Snake Game")
 # you can see this on the screen and we do not want this
 # so we need to use screen.tracer(), screen.update
 
-starting_position = [(0, 0), (-20, 0), (-40, 0)]
-segments = []
-for position in starting_position:
-    new_segment = Turtle("square")
-    new_segment.penup()
-    new_segment.color("purple")
-    new_segment.goto(position)
-    segments.append(new_segment)
-    time.sleep(2)# used to slow down animation just so we can see it in slow motion
+#*********CODE START*********######################################################################################
+# starting_position = [(0, 0), (-20, 0), (-40, 0)]
+# segments = []
+# for position in starting_position:
+#     new_segment = Turtle("square")
+#     new_segment.penup()
+#     new_segment.color("purple")
+#     new_segment.goto(position)
+#     segments.append(new_segment)
+#     time.sleep(2)# used to slow down animation just so we can see it in slow motion
+#*********CODE End*********######################################################################################
+
+
+
 
 #Create Snake Body: Part - 2**********************************************************************************************************
 # Create Snake Body
@@ -33,21 +38,22 @@ for position in starting_position:
 # it takes a number as input and turns the animation off
 # 0 turns it off
 
-my_canvas.tracer(0)# you must call screen.update() when you want the content to appear on the screen
-starting_position = [(0, 0), (-20, 0), (-40, 0)]
-segments = []
-for position in starting_position:
-    new_segment = Turtle("square")
-    new_segment.penup()
-    new_segment.color("purple")
-    new_segment.goto(position)
-    segments.append(new_segment)
+#*********CODE START*********######################################################################################
+# my_canvas.tracer(0)# you must call screen.update() when you want the content to appear on the screen
+# starting_position = [(0, 0), (-20, 0), (-40, 0)]
+# segments = []
+# for position in starting_position:
+#     new_segment = Turtle("square")
+#     new_segment.penup()
+#     new_segment.color("purple")
+#     new_segment.goto(position)
+#     segments.append(new_segment)
 
 
-#calling screen.update() here after all the segments have been created
-# so we do not see the animation of the segments being moved
-my_canvas.update()
-
+# #calling screen.update() here after all the segments have been created
+# # so we do not see the animation of the segments being moved
+# my_canvas.update()
+#*********CODE END*********######################################################################################
 
 #Create Snake Body: Final Code*****************************************************************************************************
 my_canvas.tracer(0)

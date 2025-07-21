@@ -14,3 +14,4 @@
 
 # 2. Move Snake
 - [Here](./snake-game-2.py) is the code
+- [Here]() is the code refactored to use a snake class
