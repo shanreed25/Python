@@ -88,19 +88,7 @@
   - Returns a Vec2D object (a tuple-like object) representing the turtle's current (x, y) coordinates.
 
   
-# Pointing Direction: heading()
-- heading refers to the pointing direction
-- the `heading()` method gives the current orientation of a turtle object
-- get the turtle's heading: `turtle.heading()`
-  - set the turtle's heading: `turtle.setheading()`
-  - changes the turtle's orientation
-  - pass in the desired angle in degrees: `turtle.setheading(10)`
-- the default heading is 0 degrees, pointing towards the positive x-axis (East)
-- the heading values correspond to cardinal directions 
-  - 0 degrees: East (positive x-axis)
-  - 90 degrees: North (positive y-axis)
-  - 180 degrees: West (negative x-axis)
-  - 270 degrees: South (negative y-axis)
+
   
 
 # Colors
