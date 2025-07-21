@@ -20,4 +20,4 @@
   - 270 degrees: South (negative y-axis): `turtle.setheading(270)`
 
 
-# he turtle understands cardinal directions (north, south, east, west) based on its coordinate system and heading
+# the turtle understands cardinal directions (north, south, east, west) based on its coordinate system and heading

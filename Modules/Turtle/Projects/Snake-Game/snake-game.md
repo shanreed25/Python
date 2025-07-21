@@ -1,22 +1,28 @@
 # Snake Game
 - Turtle Module
-    - Turtle()
-        - color()
-        - shape()
-        - penup()
-        - forward()
-        - goto()
-        - xcor()
-        - ycor()
-        - heading()
-        - setheading()
-    - Screen()
-        - tracer()
-        - update()
-        - listen()
-        - onkey()
+    - `Turtle()`
+        - `color()`
+        - `penup()`
+        - `shape()`
+        - `goto()`
+        - [Snake Class](./snake.py)
+            - `forward()`
+            - `xcor()`
+            - `ycor()`
+            - `heading()`
+            - `setheading()`
+        - [Food Class](./)
+            - `shapesize()`
+            - `speed()`
+    - `Screen()`
+        - `tracer()`
+        - `update()`
+        - `listen()`
+        - `onkey()`
 - Time Module
-    - sleep()
+    - `sleep()`
 
-- [Snake Class](./snake.py)
+- Random Module
+
+
 

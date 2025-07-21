@@ -1,12 +1,13 @@
 from turtle import Turtle, Screen
 import time
+
 my_canvas = Screen()
 my_canvas.setup(width=600, height=600)
 my_canvas.bgcolor("black")
 my_canvas.title("Snake Game")
 my_canvas.tracer(0)
 
-
+#Create Snake Body
 starting_position = [(0, 0), (-20, 0), (-40, 0)]
 segments = []
 for position in starting_position:

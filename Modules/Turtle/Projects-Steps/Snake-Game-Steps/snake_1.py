@@ -14,6 +14,7 @@ class Snake:
     def __init__(self):
         self.segments = []
         self.create_snake()
+        self.head = self.segments[0] # head of snake
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
@@ -28,33 +29,33 @@ class Snake:
             new_x = self.segments[seg_num - 1].xcor()
             new_y = self.segments[seg_num - 1].ycor()
             self.segments[seg_num].goto(new_x, new_y)
-        self.segments[0].forward(MOVE_DISTANCE)
+        self.head.forward(MOVE_DISTANCE)
 
+# Move Snake Up, Down, Left Right:
 
-# Prevent reverse movement
     # Add a condition to ensure the snake doesn't immediately reverse its direction.
     # For instance, if the snake is currently moving down (heading 270),
     # it should not be allowed to instantly turn up
     def move_up(self):
         #prevent the snake from immediately reversing direction
-        if self.segments[0].heading() != DOWN: # Prevent moving directly up from down
+        if self.head.heading() != DOWN: # Prevent reverse movement: Prevent moving directly up from down
             #use the setheading() method of your snake's head
             # to set its direction to 90 degrees(north)
-            self.segments[0].setheading(UP)
+            self.head.setheading(UP)
 
     def move_down(self):
-        if self.segments[0].heading() != UP:  # Prevent moving directly down from up
+        if self.head.heading() != UP:  # Prevent moving directly down from up
         # use the setheading() method of your snake's head
         # to set its direction to 270 degrees(south)
-            self.segments[0].setheading(DOWN)
+            self.head.setheading(DOWN)
 
     def move_left(self):
-        if self.segments[0].heading() != RIGHT: # Prevent moving directly left from right
-            self.segments[0].setheading(LEFT)
+        if self.head.heading() != RIGHT: # Prevent moving directly left from right
+            self.head.setheading(LEFT)
 
     def move_right(self):
-        if self.segments[0].heading() != LEFT: # Prevent moving directly right from left
-            self.segments[0].setheading(RIGHT)
+        if self.head.heading() != LEFT: # Prevent moving directly right from left
+            self.head.setheading(RIGHT)
 
 
 

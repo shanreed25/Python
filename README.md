@@ -7,3 +7,10 @@
     - Control Flow
     - Functions
 
+- [Data Structures](./DataStructures/Data-Structures.md)
+
+- [OOP](./OOP/OOP.md)
+    - Classes
+    - Objets
+    - Inheritance
+
