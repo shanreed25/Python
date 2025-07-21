@@ -18,3 +18,6 @@
   - 90 degrees: North (positive y-axis): `turtle.setheading(90)`
   - 180 degrees: West (negative x-axis): `turtle.setheading(180)`
   - 270 degrees: South (negative y-axis): `turtle.setheading(270)`
+
+
+# he turtle understands cardinal directions (north, south, east, west) based on its coordinate system and heading

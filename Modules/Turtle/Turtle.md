@@ -93,3 +93,27 @@
 
 # Colors
 - the turtle module likes to work with color [tuples]()
+
+
+
+
+# Turtle event Listeners
+In Python's Turtle graphics module, the clear() method is a function of a Turtle object. It is used to delete the specific turtle's drawings from the screen without affecting its position or state, and without affecting drawings made by other turtles.
+
+The home() function in Python's Turtle graphics module is used to move the turtle to its initial position and orientation.
+Specifically, turtle.home() performs the following actions:
+Moves to Origin:
+It moves the turtle to the coordinates (0,0), which is the center of the drawing screen by default.
+Resets Heading:
+It sets the turtle's heading (direction it is facing) back to its default orientation, which is typically facing East (0 degrees).
+This function is a convenient way to quickly reset the turtle's position and direction, often used at the beginning of a new drawing segment or to return to a known starting point.
+
+
+# Turtle screen.tracer()
+- used to control the animation and updating of the drawing screen
+- primary purpose is to optimize the drawing process, especially when dealing with complex or repetitive drawing operations
+- `screen.tracer(0)` allows for efficient, controlled drawing by deferring screen updates
+- `screen.update()` then explicitly renders the accumulated changes
+- when you want something to happen, but you don't want it to be seen until it is completed
+- Example: if you create an animation to draw a house 
+  - but you don't want it to be seen on the screen until the house is finished drawing
