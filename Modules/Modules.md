@@ -1,7 +1,9 @@
-# Modules
-- A single Python file (with a .py extension) containing code like functions, classes, and variables. 
+# Python Modules
 
-
+- [Time]()
+- [Random]()
+- [Turtle]()
+- [Colorgram](): used to extract colors from images
 
 # Install Module Pycharm
 - Windows: 
