@@ -1,5 +1,4 @@
 from turtle import Turtle
-#SOLUTION -2*******************************************************************************************************
 # these constant are used in case we wanted to change the values
 # like if we want to start at different position or to move further
 # we won't have to look through the code to change any of the values, we can just change it here
@@ -16,13 +15,31 @@ class Snake:
         self.create_snake()
         self.head = self.segments[0] # head of snake
 
+    # def create_snake(self):
+    #     for position in STARTING_POSITIONS:
+    #         new_segment = Turtle("square")
+    #         new_segment.penup()
+    #         new_segment.color("purple")
+    #         new_segment.goto(position)
+    #         self.segments.append(new_segment)
+
+
+    # create_snake and add_segment creates the snake
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            new_segment = Turtle("square")
-            new_segment.penup()
-            new_segment.color("purple")
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+            self.add_segment(position)
+
+    def add_segment(self, position):
+        new_segment = Turtle("square")
+        new_segment.penup()
+        new_segment.color("purple")
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+
+    # Grow snake
+    def grow(self):
+        self.add_segment(self.segments[-1].position())
 
     def move(self):
         for seg_num in range(len(self.segments) - 1, 0, -1):
@@ -59,7 +76,15 @@ class Snake:
 
 
 
+#**************************************************
 
+##self.tail = self.segments[len(self.segments) - 1]
+ # # Grow snake
+ #    def grow(self):
+ #        new_segment = Turtle("square")
+ #        new_segment.penup()
+ #        new_segment.color("purple")
+ #        self.segments.append(new_segment)
 
 
 
