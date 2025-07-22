@@ -69,3 +69,19 @@ for key in emp_phone_numbers:
 for key in emp_phone_numbers:
     print(emp_phone_numbers[key])
 ```
+
+
+# Max
+```
+bids = {
+    "Shannon": 215.0,
+    "lisa": 124.0,
+    "James": 119.0,
+    "Molly": 220.0,
+    "Mike": 212.0,
+}
+
+# Returns the Key of the highest price as the value
+max_value = max(bids, key=bids.get)
+print(max_value)
+```
