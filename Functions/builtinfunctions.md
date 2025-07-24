@@ -28,3 +28,4 @@ For built-in types, len() directly accesses the length information stored within
 structure for efficiency. For custom classes, len() works by calling the object's __len__ special 
 method. If a custom class does not define this method, calling len() on an instance of that 
 class will result in a TypeError.
+
