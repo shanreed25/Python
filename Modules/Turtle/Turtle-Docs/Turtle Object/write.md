@@ -1,9 +1,9 @@
 # turtle.write()
-
 - used to display text on the TurtleScreen at the turtle's current position
-- turtle.write(arg, move=False, align='left', font=('Arial', 8, 'normal'))
-Functionality:
-The turtle.write() method provides a way to add labels, instructions, or dynamic values to your Turtle graphics output. The text is written with the turtle's current position as the baseline for the text. You can customize the appearance and alignment of the text using the font and align parameters. The move parameter controls whether the turtle's position updates after the text is written
+- provides a way to add labels, instructions, or dynamic values to your Turtle graphics output
+- you can customize the appearance and alignment of the text using the font and align parameters
+- move parameter controls whether the turtle's position updates after the text is written
+- `turtle.write(arg, move=False, align='left', font=('Arial', 8, 'normal'))`
 
 ## Parameters
 - **arg:** text or value to be written on the screen. This can be a string, number, or any object that can be converted to a string.

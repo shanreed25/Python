@@ -15,4 +15,4 @@
 
 
 
-
+While hideturtle() makes the turtle icon disappear, it does not remove the drawings made by that turtle. You would still need clear() to remove the drawn shapes.
