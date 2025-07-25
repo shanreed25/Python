@@ -23,9 +23,13 @@ It has powerful tools for working with time series data, including date/time ind
 **In essence, Pandas simplifies the process of working with structured data in Python, making it an indispensable tool for tasks ranging from data cleaning and preparation to advanced statistical analysis and machine learning pre-processing.**
 _________________________________________________________________________________________________________
 # How to use Pandas
-1. Read CSV File
+1. Import Pandas
+    - start by importing the pandas library: `import pandas`.
+Read CSV File
 - `data = pandas.read_csv("path to file")`
     - returns a [Data Frame](./docs/dataframe.md)
 - `data["columnname"]` or `data.columnname` returns a [Data Series](./docs/series.md)
+- **Index**: Pandas automatically assigns a default integer index (0, 1, 2...) if not explicitly provided
+    - you can specify a custom index using the index parameter in the `pandas.DataFrame()` constructor
 
 - Check out this [file]() and see why pandas is so much better at reading CSV file than Python's file system and the CSV module that comes with python
