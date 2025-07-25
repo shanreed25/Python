@@ -29,3 +29,13 @@ structure for efficiency. For custom classes, len() works by calling the object'
 method. If a custom class does not define this method, calling len() on an instance of that 
 class will result in a TypeError.
 
+# List and set functions
+In Python, list() and set() are built-in functions used to create or convert to list and set data structures, respectively.
+list()
+The list() function creates a new list. It can take an iterable (like a tuple, string, set, or another list) as an argument, converting its elements into a new list. If no argument is provided, it creates an empty list.
+
+# set()
+set()
+The set() function creates a new set. It takes an iterable as an optional argument, converting its elements into a new set. A key characteristic of sets is that they only store unique, hashable elements and do not maintain order. If the iterable contains duplicates, set() will automatically remove them. If no argument is provided, it creates an empty set.
+- # TODO:Remove duplicates from the List: does not guarantee the order of elements in the resulting list
+colors_list = list(set(squirrel_color_list))

@@ -1,6 +1,5 @@
-# CSV Files
-- comma separated values files
-- a simple text-based format used to store tabular data
+# CSV(comma separated values) Files
+- a simple text-based format used to store **tabular data**
 - are essentially plain text files where each line represents a row
 - the values within each row are separated by commas (or other delimiters)
 - this makes them easily readable and editable with any text editor, and they are widely compatible with various software applications
