@@ -39,3 +39,6 @@ set()
 The set() function creates a new set. It takes an iterable as an optional argument, converting its elements into a new set. A key characteristic of sets is that they only store unique, hashable elements and do not maintain order. If the iterable contains duplicates, set() will automatically remove them. If no argument is provided, it creates an empty set.
 - # TODO:Remove duplicates from the List: does not guarantee the order of elements in the resulting list
 colors_list = list(set(squirrel_color_list))
+
+________________________________________________________________________________
+

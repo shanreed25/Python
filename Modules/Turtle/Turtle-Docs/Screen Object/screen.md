@@ -13,8 +13,37 @@
   - `screen.listen()`
   - `screen.onkeypress(), screen.onclick(), screen.exitonclick()`: Managing events like key presses and clicks 
   - `screen.tracer(), screen.update()`: Controlling animation updates
+____________________________________________________________________________________
+
+# TOC
+
+- [Shapes]()
+- [Coordinate system]()
+- [Screen Events]()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 
+# Keeping Screen Open
+
+- `screen.exitonclick()`
+- `screen.mainloop()`
+  - way to keep the screen open, even if code has finished running
+
+# Getting Responses From Users
+- `screen.textinput()`
+  - used to obtain string input from the user through a pop-up dialog window
 
 # Turtle screen.tracer()
 - used to control the animation and updating of the drawing screen

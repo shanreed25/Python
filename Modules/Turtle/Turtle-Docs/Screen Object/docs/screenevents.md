@@ -33,3 +33,13 @@
 # Timer Events
 - are scheduled events that occur after a specified time interval
 - **ontimer(function, t=0):** Installs a timer that calls the function after t milliseconds
+
+# `onscreenclick()
+```
+# TODO: Get x and y values when you click on the screen
+def get_mouse_click_cor(x,y):
+    print(x,y)
+
+# when the screen is clicked, it returns the x and y coordinates
+turtle.onscreenclick(get_mouse_click_cor)
+```
