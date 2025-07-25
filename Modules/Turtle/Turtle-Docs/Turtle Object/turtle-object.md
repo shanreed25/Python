@@ -9,7 +9,7 @@
 # Turtle Object Attributes
 - **Position:**
   - Represents the turtle's current location on the canvas, typically expressed as (x, y) coordinates in pixels. You can retrieve this with `turtle.position()` or `turtle.pos()`.
-- **Heading:**
+- **[Heading](./docs/heading.md):**
   - Indicates the direction the turtle is currently facing, measured in degrees. In standard mode, 0 degrees is east, 90 degrees is north, 180 degrees is west, and 270 degrees is south. You can get the current heading with `turtle.heading()`.
 - **Color:**
   - Determines the color of the line drawn as the turtle moves and the color of the turtle's shape itself. This can be set using `turtle.color()`.
@@ -19,11 +19,12 @@
   - A boolean attribute indicating whether the turtle's pen is currently "down" (drawing) or "up" (not drawing). This state is controlled by methods like `turtle.pendown()` and `turtle.penup()`.
 - **Speed:**
   - Governs the animation speed of the turtle's movements. It's an integer from 0 (no animation, instant drawing) to 10 (fastest animation). You can set or retrieve it using `turtle.speed()`.
-- **Shape:**
+- **[Shape](./docs/shape.md):**
   - Defines the visual representation of the turtle, such as "arrow", "turtle", "circle", "square", "triangle", or "classic". This can be changed with `turtle.shape()`.
 - **Fillcolor:**
   - Specifies the color used to fill shapes drawn with `begin_fill()` and `end_fill()`. This is set with turtle.fillcolor().
-
+- **[Write](./docs/write.md):**
+  - `turtle.write()` is used to display text on the TurtleScreen at the turtle's current position
 
 
 # Turtle event Listeners

@@ -13,6 +13,9 @@ Built-in data type used to store an ordered collection of items
 ## Create List with items
 - `southern_states = ["Florida", "Georgia", "Alabama", "Louisiana", "Mississippi"]`
 
+## Check if an element is present within a list
+  - **in operator**: `if item in my_list:`
+
 ## Retrieve items from a List
 - `southern_states[1]`: will return "Georgia"
 - `southern_states[2]`: will return "Alabama"
