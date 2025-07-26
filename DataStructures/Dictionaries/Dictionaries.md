@@ -50,28 +50,8 @@ It's a data structure that allows us to associate a key to a value and pair the 
 - Dictionary Syntax with default value: `dict.pop(key, default_value)`
   - if the key is not found and a default_value is provided, it returns the default_value instead of raising an error.
 
-
-
-
-
-## Wipe an entire dictionary
-- Same way you create a new dictionary: `emp_phone_numbers = {}`
-
-
-## Loop through a dictionary and print all the keys:
-```
-for key in emp_phone_numbers: 
-    print(key)
-```
-
-## Loop through a dictionary and print all the values:
-```
-for key in emp_phone_numbers:
-    print(emp_phone_numbers[key])
-```
-
-
 # Max
+
 ```
 bids = {
     "Shannon": 215.0,
@@ -85,3 +65,19 @@ bids = {
 max_value = max(bids, key=bids.get)
 print(max_value)
 ```
+
+
+
+## Wipe an entire dictionary
+- Same way you create a new dictionary: `emp_phone_numbers = {}`
+__________________________________________________________
+
+- [Loop through a dictionary](./docs/loop.md)
+- [Dictionary Comprehensions](./docs/DictionaryComprehension.md)
+
+
+
+
+
+_____________________________________
+

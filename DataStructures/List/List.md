@@ -79,3 +79,8 @@ fruits_vegetables = [fruits, vegetables]
 
 - Access items
   - `fruits_vegetables[1][1]`: will return "Kale"
+
+
+__________________________________________________________
+
+- [List Comprehensions](./docs/Listcomprehension.md)
