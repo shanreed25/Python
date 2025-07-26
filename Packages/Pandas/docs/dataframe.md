@@ -38,3 +38,8 @@ the pd.DataFrame() constructor is utilized. This method offers flexibility in ha
 1. From a single list (as a single column):
 2. From a list of lists (where each inner list represents a row):
 3. From multiple lists (zipped together to form columns):
+
+
+____________________________________________
+
+- [Loop through Data Frame]()
