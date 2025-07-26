@@ -32,3 +32,9 @@ my_data
 - `data = pandas.read_csv("path to file")` returns a data frame
 - `to_dict()` converts the data to a dictionary
     - `data.to_dict()`
+
+# DataFrame from a list
+the pd.DataFrame() constructor is utilized. This method offers flexibility in handling various list structures. 
+1. From a single list (as a single column):
+2. From a list of lists (where each inner list represents a row):
+3. From multiple lists (zipped together to form columns):

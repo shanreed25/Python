@@ -4,11 +4,7 @@
 - filename, excluding the .py extension, serves as the module's name
   - are imported directly by their filename  `import my_module`
 - when a module is imported, its contents become available within the importing script's namespace
-
-
-
-
-
+_____________________________________________________________________________________________________________
 
 
 - [Time](./Time/time.md): used to work with time-related operations
