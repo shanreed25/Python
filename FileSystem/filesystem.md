@@ -42,8 +42,9 @@
     - `file` can be any name you want, its like a variable for the file
     - every thing you want to do with the file goes inside the with block
 - `file.readlines()`: Return all lines in the file, as a list where each line is an item in the list object
-
-    - 
+    - returns each line as a string in the list, where each string has a trailing newline character (\n)
+    - If you want to remove the trailing newline characters `\n` from each line, you can use a list comprehension with the strip() method
+        - ` lines_list = [line.strip() for line in file.readlines()]`
 
 
 # Key Modules for File System Operations:
