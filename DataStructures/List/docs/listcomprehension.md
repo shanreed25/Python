@@ -90,3 +90,14 @@ ________________________________________________________________________________
     print(result)
     ```
 ___________________________________________________________________________________________________
+
+# using a dictionary key as new item: Passing in each item from a list as a key to the dictionary
+- **Keword Method:** `[new_item for item in list]`
+```
+my_dict = {'A': 'Alfa', 'B': 'Bravo', 'C': 'Charlie', 'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot'}
+my_list = ['B', 'C', 'D']
+
+dict_values_list = [my_dict[letter] for letter in my_list]
+print(dict_values_list)# ['Bravo', 'Charlie', 'Delta']
+
+```
