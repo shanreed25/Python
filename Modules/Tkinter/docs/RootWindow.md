@@ -8,11 +8,3 @@
 - **Window Size:**
 
 
-# Compoenets
-- to get a components to display we must specify how the components are going to be displayed before it will show on the screen
-
-# `packer()`
-- the easiest way to display a component is to use the `pack()` method to pack component onto the screen
-- `pack()`: will place the component in the center by default
-    - `pack(side="left")` will place component on the left
-- [Packer Docs](https://docs.python.org/3/library/tkinter.html#the-packer)
