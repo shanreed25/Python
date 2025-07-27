@@ -26,8 +26,23 @@
 - **Layout Management:** are positioned and sized within the GUI using layout managers like pack(), grid(), or place().
 - **Event Handling:** can be configured to respond to user interactions (e.g., button clicks, key presses) by binding events to specific functions or methods.
 
+**To get a Component to display we must specify how that component is going to be displayed before it will show on the screen**
 # `pack()`
 - the easiest way to display a component is to use the `pack()` method to pack component onto the screen
 - `pack()`: will place the component in the center by default
     - `pack(side="left")` will place component on the left
 - [Packer Docs](https://docs.python.org/3/library/tkinter.html#the-packer)
+
+
+# How widget work
+- Tkinter arbitrary keyword arguments for a lot of the Methods properties or initializing Components
+    - arbitrary keyword arguments(**kwargs), are collected into a dictionary
+    - You can learn more about arbitrary keyword arguments [here](../../../Functions/docs/CustomizedFunctions.md#unlimitedarbitrary-keyword-arguments--kwargs)
+- we can set these options in a number of ways
+    1. When the object is initialize
+        - `my_Label = Label(text="I am a label", font=("Arial", 24, "bold"))`
+    2. Like they are keys in a dictionary, then set the value, this can also update text
+        - `my_label["text"] = "I am a label"`
+        - `my_label["font"] = (text="I am a label", font=("Arial", 12, "bold")`
+    3. Using the config() method, this can also update text
+        - `my_label.config(text="I am a label", font=("Arial", 24, "bold"))`
