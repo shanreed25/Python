@@ -68,3 +68,35 @@ print(add(1, 3, 5, 7, 9))# 25
 
     calculate(add=5, multiply=10, divide=2)
 ```
+
+- Learn how to use unlimited positional and keyword aruguments with classes [here](../../OOP/Classes/Classes.md)
+
+
+
+# def add(*args):
+#     #access by index
+#     print(args[0])
+#     my_args_sum = 0
+#     # loop through
+#     for num in args:
+#         my_args_sum += num
+#     return my_args_sum
+#
+# # print(add(1, 3, 5, 7, 9))
+#
+#
+# def calculate(**kwargs):
+#     print(kwargs)# {'add': 5, 'multiply': 10, 'divide': 2}
+#     for key, value in kwargs.items():
+#     #     print(key)
+#     #     print(value)
+#         pass
+#     print(kwargs["add"]) # 5
+#
+#     # Dictionaries
+#     # we can also use a function called get()
+#     # pass in the name of the key if we want to get hold of the value
+#     # benefit is that if the ksy does not exist in the dictionary, it will return none, instead of giving a KeyError
+#     print(kwargs.get("divide"))  # 2
+#
+# calculate(add=5, multiply=10, divide=2)

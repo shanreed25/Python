@@ -1,52 +1,56 @@
-# Creating a Function
-- function creation starts with the key word `def`
-- followed by the name of the function and a colon `myFunction():`
-- Function definition: `def myFunction():`
-- Function body: the code that goes inside the function must be indented
-```
-def myFunction():
-    function body
-```
-- Call a function: `myFunction()`
+# Function Compoenents
 
-# Basic Function
-```
-def sayHello():
-    print("Hello")
-    
-sayHello() # will print "Hello"
-```
+### Function Definition
+- **def** : function **def**inition
+- **funcName():**: function name followwed by a set of () and a :(colon) `myFunction():`
+- **Function definition**: `def myFunction():`
 
-# Function that returns some information
-```
-def add():
-    return 5 + 2
-print(add())  # will return 7
-```
+### Function Body
+- **function body:** the code that goes inside the function
+    ```
+    def myFunction():
+        function body goes here
+    ```
+- **function call:** `myFunction()`
+
+    ##### Basic Function
+    ```
+    def sayHello():
+        print("Hello")
+        
+    sayHello() # will print "Hello"
+    ```
+
+### Return Statement
 - the return statement is used to give back a value from a function which can be used later
   - print is used to display a value to the console for the programmer to see
 - functions terminate at the return keyword, so any code after the return statement will not be executed
   - you can have multiple return statement(Conditional return)
 - when the function is called it will run then output the result
 - the result replaces the function call
-- 7 will replace the function call
+    ```
+    def add():
+        return 5 + 2
+    print(add())  # will return 7
+    ```
+    - 7 will replace the function call
 
-## Conditional Return
+#### Conditional Return
 - multiple return statements based on certain conditional checks(control flow)
 
-## Empty return
+#### Empty return
 - return without anything after, this just tells the function to exit
 
-# Function Parameters
+### Function Parameters
 - you can customized functions by providing input values called parameters
 - these input values are known as arguments when the function is called
     - you provide the actual values (arguments) inside the parentheses when calling the function
     - these arguments are then assigned to the corresponding parameters in the order they are defined
-- parameters are declared within the parentheses of the def statement when defining the function
+- parameters are declared within the parentheses when defining the function
 - each parameter acts as a local variable within the function's scope, holding the value of the corresponding argument passed during the function call
 - [More](./CustomizedFunctions.md)
 
-# Storing Functions as a Variable Value
+### Storing Functions as a Variable Value
 - You can store a reference to a function as a value to a variable
 - add the function name without parentheses, as the value to the variable
 

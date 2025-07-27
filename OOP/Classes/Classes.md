@@ -85,3 +85,4 @@ ____________________________________________________
     - `()` activates the construction of the object from the class
 
 
+- [Classes with unlimited arguments](./moreclasses.md)
