@@ -14,7 +14,7 @@
 
 - [Root Window](./docs/RootWindow.md)
 - [mainloop()](./docs/mainloop.md)
-- [Components](./docs/Components.md)
+- [Widgets](./docs/Widgets/Widgets.md)
 - []()
 - []()
 - []()

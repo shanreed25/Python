@@ -24,12 +24,12 @@
 
 
 
-
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
-    - []()
+# Python Built in Modules
+- [Random]()
+- [Time]()
+- [Tkinter]()
+- [Turtle]()
+- [Colorgram]()
+- [Math]()
+- []()
+- []()

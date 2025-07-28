@@ -1,6 +1,7 @@
-# Compoenets(Widgets)
+# Widgets
 - components commonly referred to as widgets, are the fundamental building blocks used to construct Graphical User Interfaces (GUIs) in Python
-- to get a components to display we must specify how the components are going to be displayed before it will show on the screen
+- to get a widget to display we must specify how the widget is going to be displayed before it will show on the screen
+    - you can do this by using [Layout Managers](./LayoutManagement.md)
 - widgets are instances of specific classes within the tkinter module and represent various interactive and display elements of an application
 
 # Common Tkinter Widgets
