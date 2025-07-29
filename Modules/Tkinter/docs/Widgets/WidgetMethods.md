@@ -2,9 +2,11 @@
 
 
 
-# after()
+# `after()`
 - a universal widget method used to schedule a function to be called after a specified delay
+- crucial for creating dynamic and responsive graphical user interfaces (GUIs) in Tkinter
 - allows for non-blocking execution of tasks within the Tkinter event loop, preventing the GUI from freezing during operations that require a delay
+    - allows for delayed execution of code without blocking the main event loop, which would otherwise freeze the GUI
 - **Syntax:** `widget.after(delay_ms, callback=None, *args)`
 - **Parameters**
     - **delay_ms:** the amount of time it should wait in milliseconds
@@ -13,12 +15,14 @@
     - ***args:** optional arguments to be passed to the callback function.
 - **Example:**
     ```
-    def say(a, b, c):
-        print(a, b, c)
+        def say_hello(name, city):
+        print(f"Hello, {name} from {city}")
 
-    window.after(ms=1000, cbfunction=say, args="a", "b", "c")
+
+        window.after(5000, say_hello, "Shannon", "Las Vegas")   
 
     ```
+        - `say_hello("Shannon", "Las Vegas")` will be called after 5 seconds
 
 ## Key Features and Usage
 - **Scheduling a one-time event:** The most common use case is to execute a function once after a certain time. For instance, to close a window after 5 seconds

@@ -2,7 +2,24 @@
 - components commonly referred to as widgets, are the fundamental building blocks used to construct Graphical User Interfaces (GUIs) in Python
 - to get a widget to display we must specify how the widget is going to be displayed before it will show on the screen
     - you can do this by using [Layout Managers](./LayoutManagement.md)
-- widgets are instances of specific classes within the tkinter module and represent various interactive and display elements of an application
+- widgets are instances of specific classes within the Tkinter module and represent various interactive and display elements of an application
+
+___________________________________________________________________________________________________________________________________
+
+
+# Using Widgets
+1. **Instantiation** 
+    - To use widgets a [root window](../RootWindow.md) object must be created using the `Tk()` class
+    - Widgets are objects so they must be instantiated
+        - Example: `my_label = Label()`
+2. **Configuration**
+    - customize using various options (text, bg, width, command, fg etc...) to control their appearance and behavior
+3. **[Manage Layout](../LayoutManagement.md)**
+    - position and size widgets within the GUI
+4. **Handle Events**
+    - if widget needs to respond to user interactions (button clicks, key presses), you will need to bind events to specific functions or methods that you create
+
+
 
 # Common Tkinter Widgets
 - **Label:** Used to display static text or images.
@@ -19,49 +36,9 @@
 - **Spinbox:** A numerical input field with up and down arrows for incrementing or decrementing the value.
 - **Menubutton:** A button that opens a dropdown menu when clicked.
 - **Menu:** Used to create menu bars, dropdown menus, and context menus.
-- **Toplevel:** Creates a new, independent window, often used for dialog boxes or secondary windows.
-
-# How Tkinter Widgets Work
-- **Instantiation:** created by instantiating their respective classes (e.g., tk.Button(), tk.Label()).
-- **Configuration:** can be customized using various options (e.g., text, bg, width, command) to control their appearance and behavior.
-- **[Layout Management](./LayoutManagement.md):** are positioned and sized within the GUI using layout managers like pack(), grid(), or place().
-- **Event Handling:** can be configured to respond to user interactions (e.g., button clicks, key presses) by binding events to specific functions or methods.
-
-**To get a Component to display we must specify how that component is going to be displayed before it will show on the screen**
-# `pack()`
-- the easiest way to display a component is to use the `pack()` method to pack component onto the screen
-- `pack()`: will place the component in the center by default
-    - `pack(side="left")` will place component on the left
-- [Packer Docs](https://docs.python.org/3/library/tkinter.html#the-packer)
+- **Toplevel:** Creates a new, independent window, often used for dialog boxes or secondary windows
 
 
-# How widget work
-- Tkinter arbitrary keyword arguments for a lot of the Methods properties or initializing Components
-    - arbitrary keyword arguments(**kwargs), are collected into a dictionary
-    - You can learn more about arbitrary keyword arguments [here](../../../Functions/docs/CustomizedFunctions.md#unlimitedarbitrary-keyword-arguments--kwargs)
-- we can set these options in a number of ways
-    1. When the object is initialize
-        - `my_Label = Label(text="I am a label", font=("Arial", 24, "bold"))`
-    2. Like they are keys in a dictionary, then set the value, this can also update text
-        - `my_label["text"] = "I am a label"`
-        - `my_label["font"] = (text="I am a label", font=("Arial", 12, "bold")`
-    3. Using the config() method, this can also update text
-        - `my_label.config(text="I am a label", font=("Arial", 24, "bold"))`
-
-
-# END
-- a constant ,defined within the tkinter module, that is used primarily with text-based widgets like Text and Entry
-- it refers to the position immediately after the last character of the content within that widget
-- a convenient way to specify the end of the text without needing to calculate the exact character index
-- `END` represents the position after the last character, in some contexts, particularly with Text widgets, it might refer to the newline character that is implicitly present at the end of the text
-    - to refer to the position before the final newline, you might use expressions like "end -1c"
-
-## Key uses of END:
-- **Retrieving all text**
-    - When using methods like get() on Text or Entry widgets, `END` can be used as the second argument to retrieve all content from a starting point to the very end
-    - `text_widget.get("1.0", tk.END)` retrieves all text from the beginning of the Text widget
-    - `1.0` means getting hold of the text starting from the firstline at the character 0
-- **Inserting text at the end**
-    - When using the insert() method, END can be used as the index to append new text to the existing content. For example, entry_widget.insert(tk.END, "New text") adds "New text" at the end of the Entry widget.
-- **Deleting text up to the end**
-    - Similarly, with the delete() method, END can be used to specify the end of the range to be deleted. For example, entry_widget.delete(0, tk.END) clears all content from an Entry widget.
+# Widget Methods
+- [`after()`]()
+    - a universal widget method used to schedule a function to be called after a specified delay

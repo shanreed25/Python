@@ -3,7 +3,9 @@
 - dictates how these UI elements are displayed and how they respond to changes in window size or content
 - In Tkinter there are three primary layout managers `pack()`, `place()`, and `grid()`
 
-
+pack(): Organizes widgets in blocks, often filling available space.
+grid(): Arranges widgets in a table-like structure using rows and columns.
+place(): Allows precise positioning of widgets at specific coordinates.
 
 ## pack()
 - arranges widgets in blocks, packing them against a specified side (top, bottom, left, or right) of their parent container

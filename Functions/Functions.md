@@ -6,7 +6,13 @@
 - typically operate on data passed to them as arguments and can return values
 **Functions are general-purpose procedures. They are like tools you can use independently**
 
+## Functions
+- named blocks of reusable code that perform specific tasks
+- You define functions using the def keyword, followed by the function name, parentheses containing optional parameters, and a colon.
+- Functions can take input values (arguments) and optionally return output values using the return statement.
+- Defining and using functions helps to organize your code, make it more modular, and promote reusability. 
 
+_________________________________________________
 #### Definition 
 - Functions are defined using the def keyword, followed by the function name, parentheses (which may contain parameters), and a colon. The code block within the function is indented.
 #### Execution
