@@ -1,6 +1,11 @@
 # Widget Methods
-- [after()](#after)
+- [`after()`](#after)
 - [`after_cancel()`](#after_cancel)
+- []()
+- []()
+- [`focus()`](#focus-or-focus_set)
+- []()
+- []()
 - [`insert()`](#insert)
 - []()
 - []()
@@ -46,6 +51,9 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________
 
 
+# `focus()` or `focus_set()`
+- When a Tkinter application has multiple input fields it allows you to programmatically determine which one should be active and ready to receive typed characters
+- use it to set the initial focus to a particular widget when a window or application starts, making it immediately ready for user interaction
 
 # `insert()`
 - used to add text or items into various widgets, primarily Entry, Text, and Listbox widgets
