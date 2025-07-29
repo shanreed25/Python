@@ -16,7 +16,7 @@
 
 
 # END
-- a constant ,defined within the tkinter module, that is used primarily with text-based widgets like Text and Entry
+- a constant, defined within the tkinter module, that is used primarily with text-based widgets like Text and Entry
 - it refers to the position immediately after the last character of the content within that widget
 - a convenient way to specify the end of the text without needing to calculate the exact character index
 - `END` represents the position after the last character, in some contexts, particularly with Text widgets, it might refer to the newline character that is implicitly present at the end of the text
