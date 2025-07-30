@@ -50,10 +50,23 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________
 
+# `delete()`
+- is used to remove characters or content from certain widgets, primarily Entry and Text widgets
+- removes content within a widget
+
+__________________________________________________________________________________________________________
 
 # `focus()` or `focus_set()`
 - When a Tkinter application has multiple input fields it allows you to programmatically determine which one should be active and ready to receive typed characters
 - use it to set the initial focus to a particular widget when a window or application starts, making it immediately ready for user interaction
+- **Entry Widget:** `entry_widget.delete(first_index, last_index=None)`
+    - **first_index:** The starting index of the character(s) to be deleted (0-indexed)
+    - **last_index (optional):** The ending index of the character(s) to be deleted. If omitted, only the character at first_index is deleted. To clear all content, use END as the last_index
+- **Text Widget:**
+    - **first_index:** The starting index in the format "line.character" (e.g., "1.0" for the beginning of the first line).
+    - **last_index (optional):** The ending index. If omitted, only the character at first_index is deleted. To clear all content, use END
+
+__________________________________________________________________________________________________________
 
 # `insert()`
 - used to add text or items into various widgets, primarily Entry, Text, and Listbox widgets

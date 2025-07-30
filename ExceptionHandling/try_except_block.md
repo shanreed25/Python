@@ -10,11 +10,11 @@
 - `try` block: contains the code that might potentially raise an exception
   - Python attempts to execute the code within this block
 - `except` block(s): if an exception occurs within the try block
-  - Python immediately stops executing the try block and looks for a matching except block to handle the specific exception that occurred.
+  - Python immediately stops executing the try block and looks for a matching except block to handle the specific exception that occurred
   - You can specify different except blocks to handle different types of exceptions
   - or a general except block to catch any unhandled exception
   - it's generally recommended to catch specific exceptions for better error management
-- `else` block (optional): This block is executed only if no exception occurs within the try block.
+- `else` block (optional): This block is executed only if no exception occurs within the try block
 - `finally` block (optional): This block is always executed
   - regardless of whether an exception occurred or not, or if it was handled
   - often used for cleanup operations, like closing files or releasing resources.
