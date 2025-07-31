@@ -2,8 +2,8 @@ import smtplib
 
 from pyexpat.errors import messages
 
-# identity of your email account: tralainereed
-# identity of email provider: gmail.com
+# identity of your email account: youremail
+# identity of email provider: email.com
 my_email = "youremail@email.com"
 password = "yourapppassword"
 PORT = 123456
