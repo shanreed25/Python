@@ -20,10 +20,12 @@ data_dict = {
 my_data = pandas.DataFrame(data_dict)
 
 # Convert Data to CSV File
-my_data
+my_data.to_csv("my_data.csv")
 ```
 - You can also create a Data frame from
     - From a List of Dictionaries
+        - pass the list of dictionaries directly to the pd.DataFrame() constructor
+        - each dictionary in the list will represent a row in the DataFrame, and the keys of the dictionaries will automatically become the column names
     - From a List of Lists (with optional column names)
     - Empty DataFrame
     - Data Consistency: When creating a DataFrame from a dictionary of lists, ensure all lists have the same length to avoid errors
@@ -33,7 +35,7 @@ my_data
 
 ### [`to_dict()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_dict.html)
 - `to_dict()` converts the data to a dictionary
-- `to_dict(orient="records")`: - provides a row-oriented representation of the DataFrame
+- `to_dict(orient="records")`: provides a row-oriented representation of the DataFrame
     - can be particularly useful when you need to process data row by row, or when integrating with systems that expect a list of objects where each object represents a record
     - primarily with the `DataFrame.to_dict()` and `DataFrame.to_json()`
     - `DataFrame.to_dict(orient="records")`:  converted into a list of dictionaries

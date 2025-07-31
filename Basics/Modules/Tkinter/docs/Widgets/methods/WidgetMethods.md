@@ -2,11 +2,24 @@
 - widgets and widget methods are intrinsically linked through object-oriented programming principles
 - because methods are functions that belong to a specific widget object, they allow you to configure appearance, control behavior, retrieve information and manage state
 
-#### Widget Methods
+
+## Widget-Specific Methods
+- methods and options unique to a particular type of widget and designed to control its specific appearance, behavior, or functionality
+- allow for fine-tuned control over the unique characteristics and capabilities of each individual widget type. 
+#### Widget-Specific Methods
 
 - []()
+- [`command option`]()
+- [`create_rectangle()`]()
+- [`create_line()`]()
+- [`create_text()`]()
+- [`create_image()`]()
+- [`delete()`]()
 - []()
 - []()
+- []()
+- []()
+
 - [`get()`]()
     - to retrieve the current text from an Entry widget
 - []()
@@ -32,7 +45,7 @@
     - programmatically trigger a button's command
 - []()
 - []()
-- []()
+- [`tag_add()`]()
 - []()
 - []()
 __________________________________________________________________________________________________________
@@ -55,7 +68,9 @@ ________________________________________________________________________________
 - [`bind()`]()
     - to associate events (like clicks or key presses) with specific functions
 - [`config()`]()
-    - to change options like text, color, or font
+    - set configuration options like text, color, or font
+- [`cget()`]()
+    - get configuration options
 - [`disable()` or `enable()`]()
     - to change the widget's interactive state
 - [focus_get()]() 
