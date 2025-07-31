@@ -5,7 +5,7 @@
 - [Python Basic](./Basics.md)
     - Input and Output
     - Variables
-    - Data Types
+    - [Data Types](./Basics/DataTypes/README.md)
     - Operators
     - Comments
     - Control Flow

@@ -15,13 +15,13 @@
 # File Handling
 - python's built-in open() function is used for opening files for reading, writing, or appending data
 - the with statement is commonly used with open() to ensure proper file closure, even if errors occur.
-- `open()`
+- **`open()`**
     - `file = open("my_file.txt")`: takes the file you want to open(as a string)
         - file will open in read only mode
     - the mode you want to open it in, default is read only `mode="r"`
-- `read()`
+- **`read()`**
     - `contents = file.read()`: returns the content of the file
-- `write()`
+- **`write()`**
     - takes what you want to write to the file
     - you must open the file in write mode: `file = open("my_file.txt", mode='w' )`
     - write to the file: `file.write("I like the color purple")`
@@ -30,7 +30,7 @@
         - `file = open("my_file.txt", mode='a' )`
         - `file.write("\nI like the color purple")`
     - if you try to open a file in write(w) or append(a)  mode and the file does not exist, python will create the file and write to it
-- `close()`
+- **`close()`**
     - `file.close()`: closes the open file
     - once python opens a file, it takes up resources on your computer
     - python might at some point close the file and free up those resources
@@ -41,9 +41,9 @@
     - as soon as `with` notices that we are done with that file it closes the file
     - `file` can be any name you want, its like a variable for the file
     - every thing you want to do with the file goes inside the with block
-- `file.readlines()`: Return all lines in the file, as a list where each line is an item in the list object
+- **`file.readlines()`** Return all lines in the file, as a list where each line is an item in the list object
     - returns each line as a string in the list, where each string has a trailing newline character (\n)
-    - If you want to remove the trailing newline characters `\n` from each line, you can use a list comprehension with the strip() method
+    - If you want to remove the trailing newline characters `\n` from each line, you can use a [ list comprehension](../DataStructures/List/docs/Listcomprehension.md) with the [`strip()`](../DataTypes/strings.md) method
         - ` lines_list = [line.strip() for line in file.readlines()]`
 
 

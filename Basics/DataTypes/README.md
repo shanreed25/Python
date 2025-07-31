@@ -10,7 +10,7 @@
 - Whole numbers (positive, negative, or zero), like `42` or `-15`
 ### Floats
 - Real numbers with decimal points, like `3.14` or `2.5`
-### Strings (str)
+### [Strings](./strings.md) (str)
 - Sequences of characters, enclosed in single or double quotes, like `"Hello, World!"` or `'Python'`.
 ### Booleans (bool)
 - Representing `True` or `False` values, primarily used in decision-making.
