@@ -1,6 +1,9 @@
 # Python
+<img src="Basics/assets/python_symbol.png" width="300" />
+
 
 ### Python Basics
+
 **Python basics encompass the fundamental concepts and elements necessary to begin programming in the Python language**
 - [Python Basic](./Basics.md)
     - Input and Output
