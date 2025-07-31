@@ -27,7 +27,7 @@
     - Inheritance
 - Iterators and Generators
 - Decorators
-- Context Managers
+- [Context Managers](./BeyondBasics/ContextManagers/)
 - Descriptors
 - Metaclasses
 - Concurrency and Asynchronous Programming
@@ -49,3 +49,5 @@
 - [Math]()
 - []()
 - []()
+______________________________________________________________________
+
