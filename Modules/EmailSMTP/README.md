@@ -24,7 +24,7 @@
 - **Debugging:**
     - The smtplib module can be set to a debug level to see the communication with the SMTP server for troubleshooting.
 
-- Look at python code that sends an email using the SMTP module [here](./sendemail.py)
+- Look at python code that sends an email using the SMTP module(`smtplib`) [here](./sendemail.py)
 _______________________________________________________________________________
 
 # error
