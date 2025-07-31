@@ -33,7 +33,7 @@ ________________________________________________________________________________
 
 # Changing a Canvas Elemnt
 - to change most widget text we can use **`config()`** :`button.config(text="New Text)`
-- for a canvas element we need to use **`itenconfig()`**: `canvas.itemconfig(elementToChange, whatToChange)`
+- for a canvas element we need to use **`itemconfig()`**: `canvas.itemconfig(elementToChange, whatToChange)`
 - If you want to change the textof this element: `my_text = canvas.create_text(100, 130, text="Some Text")`
-    - you would use: `canvas.itemconfig(my_text, text="New Text)`
+    - you would use: `canvas.itemconfig(my_textElement, text="New Text)`
 

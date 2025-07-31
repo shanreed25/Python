@@ -10,8 +10,8 @@
 
 # Core features and functionalities of Pandas
 - **Core Data Structures:**
-    - **[Series](./docs/series.md):** A one-dimensional labeled array capable of holding any data type
-    - **[DataFrame](./docs/dataframe.md):** A two-dimensional labeled data structure with columns of potentially different types, analogous to a spreadsheet or a SQL table.
+    - **[Series](./docs/Series/series.md):** A one-dimensional labeled array capable of holding any data type
+    - **[DataFrame](./docs/DataFrame/dataframe.md):** A two-dimensional labeled data structure with columns of potentially different types, analogous to a spreadsheet or a SQL table.
 - **Data Handling:**
     - It offers robust tools for handling various data formats, including CSV, Excel, JSON, SQL databases, and more.
 - **Data Manipulation:**
@@ -27,9 +27,14 @@ ________________________________________________________________________________
     - start by importing the pandas library: `import pandas`.
 Read CSV File
 - `data = pandas.read_csv("path to file")`
-    - returns a [Data Frame](./docs/dataframe.md)
-- `data["columnname"]` or `data.columnname` returns a [Data Series](./docs/series.md)
+    - returns a [Data Frame](./docs/DataFrame/dataframe.md)
+- `data["columnname"]` or `data.columnname` returns a [Data Series](./docs/DataFrame/dataframe.md)
 - **Index**: Pandas automatically assigns a default integer index (0, 1, 2...) if not explicitly provided
     - you can specify a custom index using the index parameter in the `pandas.DataFrame()` constructor
 
 - Check out this [file]() and see why pandas is so much better at reading CSV file than Python's file system and the CSV module that comes with python
+
+
+## API List
+- [DataFrame](./docs/DataFrame/dataframe.md)
+- [Series](./docs/Series/series.md)

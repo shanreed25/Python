@@ -30,8 +30,21 @@ my_data
 
 # Accessing Data in a Data Frame
 - `data = pandas.read_csv("path to file")` returns a data frame
+
+### [`to_dict()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_dict.html)
 - `to_dict()` converts the data to a dictionary
-    - `data.to_dict()`
+- `to_dict(orient="records")`: - provides a row-oriented representation of the DataFrame
+    - can be particularly useful when you need to process data row by row, or when integrating with systems that expect a list of objects where each object represents a record
+    - primarily with the `DataFrame.to_dict()` and `DataFrame.to_json()`
+    - `DataFrame.to_dict(orient="records")`:  converted into a list of dictionaries
+        - each dictionary in the list represents a row of the DataFrame, where the keys of the dictionary are the column names and the values are the corresponding data for that row
+        - index is not preserved in this format
+    - `DataFrame.to_json(orient="records")`: converted into a JSON string representing a list of JSON objects
+        - each JSON object corresponds to a row, with column names as keys and cell values as values
+        - index is not included in the JSON output when orient="records"
+
+
+
 
 # DataFrame from a list
 the pd.DataFrame() constructor is utilized. This method offers flexibility in handling various list structures. 

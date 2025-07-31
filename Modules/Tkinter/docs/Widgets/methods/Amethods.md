@@ -1,19 +1,15 @@
-# Widget Methods
-- [`after()`](#after)
-- [`after_cancel()`](#after_cancel)
-- []()
-- []()
-- [`focus()`](#focus-or-focus_set)
-- []()
-- []()
-- [`insert()`](#insert)
-- []()
-- []()
+
+
+
+
+
+
+
 
 
 # `after()`
 - a universal widget method used to schedule a function to be called after a specified delay
-- primary use of after() is to introduce a delay before executing a specific function
+- primary use of `after()` is to introduce a delay before executing a specific function, . It is useful for creating timed events or animations.
 - crucial for creating dynamic and responsive graphical user interfaces (GUIs) in Tkinter
 - allows for non-blocking execution of tasks within the Tkinter event loop, preventing the GUI from freezing during operations that require a delay
     - allows for delayed execution of code without blocking the main event loop, which would otherwise freeze the GUI
@@ -41,6 +37,8 @@
 - **Cancellation:** The `after()` method returns an integer "after identifier." This identifier can be passed to the `after_cancel()` method to cancel a scheduled callback before it executes
 - **after_idle():** A related method, `after_idle()`, schedules a function to be called when the Tkinter event loop is idle, meaning there are no pending events to process. This is useful for tasks that should run when the system is not busy
 __________________________________________________________________________________________________________
+
+_________________________________________________________________________________
 
 # `after_cancel()`
 - used to cancel a scheduled callback function that was previously set up using the `after()` method
