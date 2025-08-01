@@ -1,18 +1,18 @@
 # Python: Beyond The Basics
 **Python concepts beyond the basics involve exploring more advanced features and paradigms to write efficient, robust, and maintainable code**
-- [OOP](./OOP/OOP.md)
-    - Classes
-    - Objets
-    - Inheritance
-- Iterators and Generators
-- Decorators
-- [Context Managers]
-- Descriptors
-- Metaclasses
-- Concurrency and Asynchronous Programming
-- Dunder Methods (Special Methods)with built-in operations.
-- Functional Programming Concepts
-- Advanced Data Structures
-- Error Handling and Debugging
-- Testing and Performance Optimization
+- [OOP](./BeyondBasics/OOP/README.md)
+    - [Classes](./OOP/Classes/README.md)
+    - [Objets](./OOP/Objects/README.md)
+    - [Inheritance](./OOP/Classes/Inheritance.md)
+- [Iterators and Generators]()
+- [Decorators]()
+- [Context Managers](./ContextManagers/README.md)
+- [Descriptors]()
+- [Metaclasses]()
+- [Concurrency and Asynchronous Programming]()
+- [Dunder Methods (Special Methods)with built-in operations]().
+- [Functional Programming Concepts]()
+- [Advanced Data Structures]()
+- [Error Handling and Debugging](./ExceptionHandling/README.md)
+- [Testing and Performance Optimization]()
 

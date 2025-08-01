@@ -2,24 +2,24 @@
 ### Python Basics
 
 **Python basics encompass the fundamental concepts and elements necessary to begin programming in the Python language**
-- [Python Basic](./Basics.md)
-    - Input and Output
-    - Variables
+- [Python Basic](./Basics/README.md)
+    - [Input and Output]()
+    - [Variables](./Basics/BasicInfo/Variables.md)
     - [Data Types](./Basics/DataTypes/README.md)
-    - Operators
-    - Comments
-    - Control Flow
-    - Indentation
-    - Functions
-    - Methods
-    - [Data Structures](./DataStructures/Data-Structures.md)
+    - [Operators](./Basics/Operators/README.md)
+    - [Comments]()
+    - [Control Flow](./Basics/ControlFlow/README.md)
+    - [Indentation]()
+    - [Functions](./Basics/Functions/README.md)
+    - [Methods](./Basics/Methods/README.md)
+    - [Data Structures](./Basics/DataStructures/README.md)
 
 # Python: Beyond The Basics
 **Python concepts beyond the basics involve exploring more advanced features and paradigms to write efficient, robust, and maintainable code**
-- [OOP](./OOP/OOP.md)
-    - Classes
-    - Objets
-    - Inheritance
+- [OOP](./BeyondBasics/OOP/README.md)
+    - [Classes](./BeyondBasics/OOP/Classes/README.md)
+    - [Objets](./BeyondBasics/OOP/Objects/README.md)
+    - [Inheritance]()
 - Iterators and Generators
 - Decorators
 - [Context Managers](./BeyondBasics/ContextManagers/)
