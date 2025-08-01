@@ -1,4 +1,12 @@
 
-
-# Function
-- [Get x and y values when you click on the screen]()
+# Cheatsheets
+- [Conditionals](./conditionals.py)
+- [Loops](./loops.py)
+- [Tkinter](./tkinter.py)
+- [Turtle](./turtlemodule.py)
+- [.txt files](./txtfiles.py)
+- []()
+- []()
+- []()
+- []()
+- []()
