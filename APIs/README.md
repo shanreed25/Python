@@ -40,7 +40,8 @@ ________________________________________________________________________________
 #### [Response Codes](./ResponseCodes.md)
 - messages from the server about the outcome of a page request
 
-
+#### [Parameters](./Parameters.md)
+- APIs can be designed to either accept parameters in their requests or function without them, depending on the specific functionality they offer.
 _______________________________________________________________________________________
 
 #### Python Packages

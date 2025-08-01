@@ -51,4 +51,3 @@ with smtplib.SMTP("smtpaddress.com", port=PORT)as connection:
     connection.sendmail(from_addr=my_email, 
                     to_addrs="sendtoemail@email.com", 
                     msg="Subject:Hello From Python\n\nThis is how python sends emails with SMTP")
-
