@@ -46,3 +46,4 @@ _______________________________________________________
 - `date_of_birth = dt.datetime(year=2015, month=1, day=1)` returns 2015-01-01 00:00:00
 - some attributes have a default value like `hour`
     - `date_of_birth = dt.datetime(year=2015, month=1, day=1, hour=4)` returns 2015-01-01 04:00:00
+- ` .strftime("%Y-%#m-%#d")` : changes the date from 2025-07-31 to 2025-7-31

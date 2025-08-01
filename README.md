@@ -13,11 +13,6 @@
     - Functions
     - Methods
     - [Data Structures](./DataStructures/Data-Structures.md)
-        - [Lists](./DataStructures/List/List.md)
-        - [Dictinaries](./DataStructures/Dictionaries/Dictionaries.md)
-        - [Tuple](./DataStructures/Tuple/Tuple.md)
-        - []()
-        - []()
 
 # Python: Beyond The Basics
 **Python concepts beyond the basics involve exploring more advanced features and paradigms to write efficient, robust, and maintainable code**

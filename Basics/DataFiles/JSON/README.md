@@ -24,3 +24,5 @@
     - **`json.load()`**: reads JSON data from a file-like object and converts it into a python dictionary
     - **`json.loads()`**: parses a JSON-formatted string and converts it into a Python object
     - **`json.update()`**: update
+
+- Json formatter for browsers
