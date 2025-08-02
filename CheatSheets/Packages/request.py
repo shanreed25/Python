@@ -11,8 +11,8 @@ print(data )# {'iss_position': {'longitude': '-82.2386', 'latitude': '24.2127'},
 
 # Get iss position, can tap into the json object just like a dictionary
 iss_position = data["iss_position"]
-longitude = data["iss_position"]["longitude"]
-latitude = data["iss_position"]["latitude"]
+longitude = data["iss_position"]["longitude"] # String
+latitude = data["iss_position"]["latitude"] # String
 print(latitude)
 
 
@@ -60,13 +60,13 @@ data = response.json()
 print(data)
 
 # Get Sunrise and Sunset Hour Values
-sunrise = data["results"]["sunrise"]
-sunrise_hour = sunrise.split("T")[1].split(":")[0]
+sunrise = data["results"]["sunrise"]# String
+sunrise_hour = sunrise.split("T")[1].split(":")[0]# String
 # print(f"Sunrise: {sunrise}")# 2025-08-01T12:46:43+00:00
 print(f"Sunrise Hour: {sunrise_hour}")# ['2025-08-01', '12:46:43+00:00']
 
-sunset = data["results"]["sunset"]
-sunset_hour = sunset.split("T")[1].split(":")[0]
+sunset = data["results"]["sunset"]# String
+sunset_hour = sunset.split("T")[1].split(":")[0]# String
 # print(f"Sunset: {sunset}")# 2025-08-02T02:47:02+00:00
 print(f"Sunset Hour: {sunset_hour}")# ['2025-08-02', '02:47:02+00:00']
 
