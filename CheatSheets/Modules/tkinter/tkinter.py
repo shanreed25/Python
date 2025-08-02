@@ -24,5 +24,10 @@ canvas.itemconfig(my_text, text="new text")
 my_button = Button(image=my_img, highlightthickness=0, command=my_func)
 my_button.grid(row=1, column=0)
 
+my_button = Button(image=my_img, text="known", command=my_func)
+my_button.config( relief="flat", borderwidth=0, highlightthickness=0)
+my_button.grid(row=1, column=1)
+
+
 
 window.mainloop()

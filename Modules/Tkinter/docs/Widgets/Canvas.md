@@ -31,6 +31,24 @@ ________________________________________________________________________________
                 - `img = PhotoImage(file="my_img.png")`
         - `canvas.create_image(100, 112, image=img )`
 
+# Draw text on a Canvas widget
+- `canvas.create_text()`
+- Parameters:
+    - `x`: The x-coordinate of the text's anchor point.
+    - `y`: The y-coordinate of the text's anchor point.
+    - `: options`**: A dictionary of keyword arguments to customize the text's appearance and behavior. Common options include:
+        - `text`: The string of text to display. Use \n for line breaks.
+        - `fill`: The color of the text (e.g., 'red', '#FF0000').
+        - `font`: A tuple or string specifying the font family, size, and style (e.g., ('Arial', 12, 'bold'), 'Times 10 italic').
+        - `anchor`: Specifies how the text is aligned relative to the (x, y) coordinates. Common values include 'center' (default), 'n', 's', 'e', 'w', 'nw', 'ne', 'sw', 'se'.
+        - `width`: The maximum width of the text in pixels. If the text exceeds this width, it will automatically wrap to multiple lines.
+        - `justify`: How lines of text are justified within the specified width. Options are 'left', 'center', or 'right'.
+        - `state`: Controls the text's visibility and responsiveness to events. Options are 'normal' (default), 'disabled', or 'hidden'.
+        - `tags`: A string or tuple of strings to assign tags to the text item, allowing for easier manipulation or event binding.
+
+
+
+
 # Changing a Canvas Elemnt
 - to change most widget text we can use **`config()`** :`button.config(text="New Text)`
 - for a canvas element we need to use **`itemconfig()`**: `canvas.itemconfig(elementToChange, whatToChange)`
