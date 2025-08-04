@@ -71,7 +71,7 @@ sunset_hour = sunset.split("T")[1].split(":")[0]# String
 print(f"Sunset Hour: {sunset_hour}")# ['2025-08-02', '02:47:02+00:00']
 
 #####API KEYS: API With Paramters********************************************************************************************************
-api_key = "12eaac17ed6b664396f293dfdb752f98"
+api_key = ""
 LAT = 36.169941
 LON= -115.139832
 API_URL = "https://api.openweathermap.org/data/2.5/forecast"
@@ -81,7 +81,7 @@ parameters = {
 "appid": api_key
 }
 
-# api.openweathermap.org/data/2.5/forecast?lat=36.169941&lon=-115.139832&appid=12eaac17ed6b664396f293dfdb752f98
+# api.openweathermap.org/data/2.5/forecast?lat=36.169941&lon=-115.139832&appid=
 # dt: TIME STAMP: THE AMOUNT OF TIME THAT HAS PASSES SINCE 1/1/1970IN uNIX TIME: SECONDS
 # "dt_txt" IS THE HUMAN READABLE
 response = rq.get(url=API_URL, params=parameters,)
