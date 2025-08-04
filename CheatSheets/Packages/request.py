@@ -70,3 +70,32 @@ sunset_hour = sunset.split("T")[1].split(":")[0]# String
 # print(f"Sunset: {sunset}")# 2025-08-02T02:47:02+00:00
 print(f"Sunset Hour: {sunset_hour}")# ['2025-08-02', '02:47:02+00:00']
 
+#####API KEYS: API With Paramters********************************************************************************************************
+api_key = "12eaac17ed6b664396f293dfdb752f98"
+LAT = 36.169941
+LON= -115.139832
+API_URL = "https://api.openweathermap.org/data/2.5/forecast"
+parameters = {
+"lat": LAT,
+"lon": LON,
+"appid": api_key
+}
+
+# api.openweathermap.org/data/2.5/forecast?lat=36.169941&lon=-115.139832&appid=12eaac17ed6b664396f293dfdb752f98
+# dt: TIME STAMP: THE AMOUNT OF TIME THAT HAS PASSES SINCE 1/1/1970IN uNIX TIME: SECONDS
+# "dt_txt" IS THE HUMAN READABLE
+response = rq.get(url=API_URL, params=parameters,)
+response.raise_for_status()
+
+data = response.json()
+status_code = data["cod"]
+print(data)
+print(status_code)
+
+print(data["list"])
+
+for day in data["list"]:
+    print(day["weather"][0]["id"])
+    print(day["weather"][0]["description"])
+
+# print(data["list"]["weather"]["id"]["description"])

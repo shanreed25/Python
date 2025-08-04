@@ -2,12 +2,11 @@
 - provides classes for working with dates and times
 - offers functionalities for representing, manipulating, and formatting date and time information
 
-
-# Common Classes
-- **date:** Represents a date (year, month, day).
-- **time:** Represents a time of day (hour, minute, second, microsecond).
-- **datetime:** Combines both date and time information. This is the most commonly used class for handling specific points in time.
-- **timedelta:** Represents a duration or the difference between two date, time, or datetime objects.
+# Frequently Used Classes
+- **[date](./date.md):** to specifically handle dates (year, month, and day)
+- **[time]():** to specifically handle time(hour, minute, second, microsecond)
+- **[datetime](./datetimeclass.md):** handles both date and time combined 
+- **[timedelta]():** represents a duration or the difference between two date, time, or datetime objects.
 
 
 # Common Operations and Features
@@ -28,22 +27,6 @@
     - The datetime module, especially with the zoneinfo module (introduced in Python 3.9), supports handling time zones and daylight saving time.
 
 _______________________________________________________
-# datetime module
-- the module is called datetime and there is a datetime class
-- when importing it is a good idea to give it a alias
-    - `import datetime as dt`
-    - so when calling the datetime class you can use `dt.datetime` instead of `datetime.datetime`, just to keep things from getting confusing
 
-# `datetime` class
-- **`datetime.now()`**: 
-    - returns current date and time as a string in this format:` 2025-07-31 10:28:13.755558`
-    - **`now()` attributes**: `year`, `month`, `day`, `hour`, `minute`, `second`,  etc....
-        - `year = current_datetime.year`: returns a integer like 2020
-    - **`now()` methods**: `weekday()`, `time()`
-        - `week_day = current_datetime.weekday()`: returns a integer, 0 == Monday, 1 == Tuesday etc...
-
-# `datetime` class: Creating DateTime
-- `date_of_birth = dt.datetime(year=2015, month=1, day=1)` returns 2015-01-01 00:00:00
-- some attributes have a default value like `hour`
-    - `date_of_birth = dt.datetime(year=2015, month=1, day=1, hour=4)` returns 2015-01-01 04:00:00
-- ` .strftime("%Y-%#m-%#d")` : changes the date from 2025-07-31 to 2025-7-31
+# datetime methods
+### now()
