@@ -17,6 +17,6 @@
 
 
 # Data Structures
-- [Lists](./List/List.md)
-- [Dictinaries](./Dictionaries/Dictionaries.md)
-- [Tuple](./Tuple/Tuple.md)
+- [Lists](./List/README.md)
+- [Dictinaries](./Dictionaries/README.md)
+- [Tuple](./Tuple/README.md)
