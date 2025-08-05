@@ -56,7 +56,7 @@ It's a data structure that allows us to associate a key to a value and pair the 
 
 
 ___________________________________________________________________________________________
-# See Dictionary Examples [here](../../../CheatSheets/DataStructures/dictionaries.py)
+# See Dictionary Examples [here](https://github.com/shanreed25/Python-Cheatsheet/blob/main/DataStructures/dictionaries.py)
   - Accessing Values Examples 
   - Looping Through A Dictionary Examples
   - Using methods like max(), pop(), items(), etc.....
