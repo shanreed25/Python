@@ -14,9 +14,6 @@
 
 ________________________________________________________________________________________________________________
 
-# date methods
-- `date.today()` returns the current date ex. 2008-09-09
-
 
 
 ### Formatting date objects into strings

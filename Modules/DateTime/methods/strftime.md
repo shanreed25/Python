@@ -1,14 +1,51 @@
 # strftime()
 -  method used to format datetime objects into human-readable strings
--  `strftime` stands for **string format time**
+- a function available for datetime, date, and time objects within the datetime module
+- used to convert these objects into a formatted string representation
+- `strftime` stands for **string format time**
+- provides a flexible way to customize the string representation of date and time objects in Python, making it useful for display, logging, and data formatting purposes
 
 
 #### How It Works
-- **Input**: takes a datetime object and a format string as arguments
-- **String Formatting**: format string contains a combination of **literal text** and special "format codes" also known as **directives**
-    - these codes represent different components of a date and time, such as year, month, day, hour, minute, second, etc
-- **Replacement**: replaces the format codes in the format string with the corresponding values from the datetime object
-- **Output**: returns a new string representing the datetime object formatted according to the specified format string
+1. Takes a datetime object and a format string as arguments
+    - format string contains standard format codes preceded by a % sign
+    - these codes represent different components of the date and time, such as year, month, day, hour, minute, second, and more
+    - it replaces these format codes with the corresponding values from the datetime, date, or time object, resulting in a formatted string
+2. When strftime() is called, it replaces these format codes with the corresponding values from the datetime, date, or time object, resulting in a formatted string
+3. Returns a new string representing the datetime object formatted according to the specified format string
+
+#### Common Format Codes
+| Code        | Description                                                 | Example  |
+| :---------- | :---------------------------------------------------------: | -------: |
+| %Y          | Year with century                                           | 2022     |
+| %m          | Month as a zero-padded decimal number (01-12)               | 05       |
+| %d          | Day of the month as a zero-padded decimal number (01-31)    | 10       |
+| %H          | Hour (24-hour clock) as a zero-padded decimal number (00-23)| 14       |
+| %M          | Minute as a zero-padded decimal number (00-59)              | 26       |
+| %S          | Second as a zero-padded decimal number (00-59)              | 46       |
+| Apple       | 10                                     | 1.50     |
+| Banana      | 5                                      | 0.75     |
+| Orange      | 8                                      | 1.20     |
 
 
- provides methods like strftime() for formatting datetime objects into human-readable strings and strptime() for parsing strings into datetime objects
+
+Hour (24-hour clock) as a zero-padded decimal number (00-23)
+16
+%M
+
+34
+%S
+
+59
+%A
+Full weekday name (e.g., Monday)
+Monday
+%B
+Full month name (e.g., August)
+August
+%p
+AM or PM
+PM
+
+ # strptime() 
+ - `strptime()` parses strings into datetime objects

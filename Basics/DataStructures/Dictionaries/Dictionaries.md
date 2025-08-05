@@ -5,75 +5,62 @@ It's a data structure that allows us to associate a key to a value and pair the 
   - Key: equivalent of a word, in a real life dictionary
   - Value: equivalent of the definition of a word, in a real life dictionary
 `emp_phone_numbers = {"Lisa": 123-456-7890}`
-## Key
-- must be the correct data type
-  - emp_phone_numbers = {Lisa: 123-456-7890}
-  - Python thinks that Lisa is variable you declared somewhere
+
+##### Key
+- items are identified/accessed by the key, and counting starts at 1
+- if you try to retrieve, but you spell the key wrong you will get a
+  - `KeyError`: which means the key does not exist and cannot be found
+- keys must be the correct data type: `emp_phone_numbers = {Lisa: 123-456-7890}`
   - will cause a: `NameError: name 'Lisa' is not defined.`
-
-## Value
-
-##  Create Empty Dictionary
-- `emp_phone_numbers = {}`
-
-## Create Dictionary with content
-- `emp_phone_numbers = {"Lisa": 1234567890, "James": 9876540321, "Kim": 5673456288}`
-
-## Retrieve items from a dictionary
-- Elements are identified by the Key, and counting starts at 1
-- If you try to retrieve, but you spell the key wrong you will get a
-  - `KeyError:` which means the key does not exist and cannot be found
-  - `emp_phone_numbers["Jmaes"]`
-- If you try to retrieve, but you don't use the correct data type you will get a 
-  - NameError: name 'James' is not defined
-  - `emp_phone_numbers[James]`
+  - Python thinks that Lisa is variable you declared somewhere
 
 
-## Add new items to an existing dictionary
-- `emp_phone_numbers["Mary"] = 5432345678`
-- if it finds nothing with that key then it's going to create a new entry with the new key and value
-
-## Edit an item in dictionary
-- You edit items in a dictionary the same why you add a new item
-- `emp_phone_numbers["Kim"] = 1234565678`
-  - will look through the dictionary and find a value with this key
-  - then assign it to whatever is on the right side of the equals sign
-  - if it finds nothing with that key then it's going to create a new entry with the new key and value
-
-
-## Remove and return item by index: pop()
+##### Remove and return item by index: `dict.pop(key)`
 - used with lists and dictionaries to remove and return an element
-- Dictionary Syntax: `dict.pop(key)`
-  - removes the key-value pair associated with the specified key from the dictionary
-  - returns the value associated with the removed key
+- removes the key-value pair associated with the specified key from the dictionary
+- returns the value associated with the removed key
 - If the key is not found and no default_value is provided, a `KeyError` will be raised.
-- Dictionary Syntax with default value: `dict.pop(key, default_value)`
-  - if the key is not found and a default_value is provided, it returns the default_value instead of raising an error.
+  - Syntax with default value: `dict.pop(key, default_value)`
 
-# Max
+##### Accessing Dictionary Values
+- there are several ways to access values in a Python dictionary
+- **Square Brackets []**
+- **get() Method**
+- **values() method**
+- **items() method**
 
-```
-bids = {
-    "Shannon": 215.0,
-    "lisa": 124.0,
-    "James": 119.0,
-    "Molly": 220.0,
-    "Mike": 212.0,
-}
+## Square Brackets []
+- the most common and direct way to access a value by its key
+- if the key does not exist, this method will raise a KeyError
+- use the the get() Method to avoid the KeyError, if the key does not exist
 
-# Returns the Key of the highest price as the value
-max_value = max(bids, key=bids.get)
-print(max_value)
-```
+## get() Method
+- provides a safer way to access values
+- allows you to specify a default value to return if the key is not found, instead of raising an error
+- if you do not provide a default value it will return None, instead of raising an error
+- `get("number")`
+    - Returns None if the number key is not found
+- `.get("number", "Unknown")`
+    - Returns "Unknown" if "number" key is not found
+
+## values() method
+- returns a view object that displays a list of all the values in the dictionary
+- you can iterate over this view to access all values
+
+## items() method
+- returns a view object that displays a list of a dictionary's key-value tuple pairs
+- can unpack these tuples in a loop to access both keys and values
 
 
 
-## Wipe an entire dictionary
-- Same way you create a new dictionary: `emp_phone_numbers = {}`
-__________________________________________________________
 
-- [Loop through a dictionary](./docs/loop.md)
-- [Dictionary Comprehensions](./docs/DictionaryComprehension.md)
+
+___________________________________________________________________________________________
+# See Dictionary Examples [here](../../../CheatSheets/DataStructures/dictionaries.py)
+  - Accessing Values Examples 
+  - Looping Through A Dictionary Examples
+  - Using methods like max(), pop(), items(), etc.....
+- Dictionary Comprehensions
 
 
 
