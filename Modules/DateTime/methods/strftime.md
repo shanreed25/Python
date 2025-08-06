@@ -15,37 +15,22 @@
 3. Returns a new string representing the datetime object formatted according to the specified format string
 
 #### Common Format Codes
-| Code        | Description                                                 | Example  |
+| Directive   | Description                                                 | Example  |
 | :---------- | :---------------------------------------------------------: | -------: |
 | %Y          | Year with century                                           | 2022     |
+| %y          | Short year without century                                  | 22       |
 | %m          | Month as a zero-padded decimal number (01-12)               | 05       |
 | %d          | Day of the month as a zero-padded decimal number (01-31)    | 10       |
 | %H          | Hour (24-hour clock) as a zero-padded decimal number (00-23)| 14       |
 | %M          | Minute as a zero-padded decimal number (00-59)              | 26       |
 | %S          | Second as a zero-padded decimal number (00-59)              | 46       |
-| Apple       | 10                                     | 1.50     |
-| Banana      | 5                                      | 0.75     |
-| Orange      | 8                                      | 1.20     |
+| %A          | Full weekday name                                           | Friday   |
+| %a          | Short weekday name                                          | Fri      |
+| %w          | Weekday as a number (0-6)                                   | 0        |
+| %B          | Full month name                                             | July     |
+| %b          | Short month name                                            | Dec      |
+| %p          | AM or PM                                                    | PM       |
 
-
-
-Hour (24-hour clock) as a zero-padded decimal number (00-23)
-16
-%M
-
-34
-%S
-
-59
-%A
-Full weekday name (e.g., Monday)
-Monday
-%B
-Full month name (e.g., August)
-August
-%p
-AM or PM
-PM
 
  # strptime() 
  - `strptime()` parses strings into datetime objects

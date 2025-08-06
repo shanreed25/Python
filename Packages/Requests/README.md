@@ -17,3 +17,10 @@
 - supports routing requests through proxy servers, useful for tasks like bypassing geo-restrictions or managing IP addresses
 ### File Uploads
 - provides an easy way to upload files as part of a POST request
+
+
+# Types of Requests
+- [GET](./GET.md)
+- [POST](./POST.md)
+- [PUT](./PUT.md)
+- [DELETE](./DELETE.md)
