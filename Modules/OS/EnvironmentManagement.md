@@ -37,3 +37,6 @@
 1. Set environment variables
     - `os.environ["APP_ID"] = APP_ID`
 2. Get an environment variable
+
+
+# .env file
