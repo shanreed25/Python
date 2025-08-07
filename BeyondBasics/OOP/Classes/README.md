@@ -4,36 +4,38 @@
  - serves as a blueprint or a template for creating objects
  - defines a new type of object and specifies its characteristics (attributes) and behaviors (methods)
 
-# Class Attributes:
+#### Class Attributes:
 - variables that store data associated with an object
 - represent the properties or state of an object
 - also known as class variables
 
-# Class Methods
+#### Class Methods
 - functions defined within a class that perform actions or operations on the object's data
 - represent the behaviors or functionalities of an object
 
-# Class __init__() Method:
+#### Class __init__() Method:
 - a special method, known as the constructor
 - is automatically called when a new object (instance) of the class is created
 - used to initialize the object's attributes
-# Class self Parameter:
+#### Class self Parameter:
 - a convention used as the first parameter in methods, to refer to the instance of the class itself
 - allows methods to access and modify the instance's attributes
 
-# Class Instantiation:
+#### [ **_ (single underscore)** `self._attribute`](./SingleUnderscore.md)
+
+#### Class Instantiation:
 - is the creation of an object from a class 
 - involves calling the class name as if it were a function, which in turn invokes the __init__() method to create and initialize a new instance
 
 ____________________________________________________
-# Create a class
+### Create a class
 - `class Babysitter:`
 - written with the first letter of each word capitalized(pascal case)
 
-# Using a class to create an object
+### Using a class to create an object
 - `()`: used to initialize/construct an object from a class
 
-# Adding Attributes 
+### Adding Attributes 
 - object attributes can be created and assigned values using dot notation in a few different ways
 - Dynamically After Object Creation
   - `sitter_1 = Babysitter()`
@@ -50,7 +52,7 @@ ____________________________________________________
   - The built-in setattr() function provides another way to set an attribute on an object
   - useful when the attribute name is determined at runtime.
 
-# Model Object: Babysitter
+### Model Object: Babysitter
 - attributes: what it has
   - attribute is a variable that is associated with a modeled object
   - attributes are attached to a particular object
@@ -71,7 +73,7 @@ ____________________________________________________
   - have a `is_holding_baby` and `kids_to_handle` attribute/variable
   - can `cook()` and `feed_kids()`
 
-# Class vs Object
+### Class vs Object
 - multiple objects can be generated from the same type
   - Example: we can generate multiple babysitters from the same model/blueprint
 <!-- - In OOP this model/blueprint/type is called a `class` -->
