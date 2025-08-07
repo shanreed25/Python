@@ -10,12 +10,21 @@ ________________________________________________________________________________
 - [Email SMTP](./EmailSMTP/README.md)
 - [Math](./Math/README.md)
 - [PyperClip](./PyperClip/README.md)
+- [DateTime](./DateTime/README.md)
+- [OS](./OS/README.md)
+- [PrettyPrint](./PrettyPrint/README.md)
+- []()
+- []()
+- []()
 - []()
 - []()
 - []()
 - [Random](./Random/README.md): used to generate pseudo-random numbers and perform random operations on sequences
 - [Time](./Time/README.md): used to work with time-related operations
 - [Tkinter](./Tkinter/README.md)
+- []()
+- []()
+- []()
 - []()
 - []()
 - [Turtle](./Turtle/README.md): used to to create graphics and animations using a virtual "turtle" that draws on a screen
