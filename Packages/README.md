@@ -21,3 +21,5 @@
 __________________________________________________
 
 - [Pandas](./Pandas/Pandas.md): for data manipulation and analysis
+- [Requests](./Requests/README.md): simplifies the process of making HTTP requests in Python
+- [Beautiful Soup](./BeautifulSoup/README.md): designed for parsing HTML and XML documents
