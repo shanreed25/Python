@@ -1,0 +1,4 @@
+# Operations
+
+
+- [Slicing](./Slicing.md)

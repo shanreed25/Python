@@ -4,6 +4,8 @@
     - [Classes](./OOP/Classes/README.md)
     - [Objets](./OOP/Objects/README.md)
     - [Inheritance](./OOP/Classes/Inheritance.md)
+- [Operations](./Operations/README.md)
+    - Slicing
 - [Iterators and Generators]()
 - [Decorators]()
 - [Context Managers](./ContextManagers/README.md)
