@@ -33,3 +33,4 @@
     - quit the entire browser: `driver.quit()`
 
 - [Find and Locate specific HTML elements on the webpage](./SeleniumWedriver.md)
+- [Selenium Examples](https://github.com/shanreed25/Python-Cheatsheet/tree/main/Packages/SeleniumWebDriver)

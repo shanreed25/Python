@@ -36,3 +36,5 @@
 - `Beautiful Soup` get stuck when the website is being rendered using JS, React, Angualr etc...
     - the HTML content takes time to load, or requires certain conditions to be true to load
     - Selenium allows us to act as a human looking at the elements and values
+
+- [Selenium Examples](https://github.com/shanreed25/Python-Cheatsheet/tree/main/Packages/SeleniumWebDriver)
