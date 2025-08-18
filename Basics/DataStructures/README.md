@@ -6,17 +6,12 @@
 
 
 
-### Lists
+#### [Lists](./List/README.md)
 - Ordered and mutable collections of values, represented by square brackets [].
-### Tuples
+#### [Tuples](./Tuple/README.md)
 - Ordered and immutable collections of values, represented by parentheses ().
-### Dictionaries
+#### [Dictinaries](./Dictionaries/README.md)
 - Unordered and mutable collection of key-value pairs, enclosed in curly braces {}.
-### Sets
+#### Sets
 - Unordered collections of unique items, also using curly braces {}. 
 
-
-# Data Structures
-- [Lists](./List/README.md)
-- [Dictinaries](./Dictionaries/README.md)
-- [Tuple](./Tuple/README.md)
