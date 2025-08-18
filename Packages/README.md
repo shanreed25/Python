@@ -8,16 +8,19 @@
 - imported using their directory name, often with dot notation to access specific modules within them (e.g., import my_package.module_a)
 
 
-# Install Package Pycharm
-- Windows: 
-  - File
-  - Settings
-  - Projectname
-  - Python Interpreter
-  - Click the `+`
-  - Search for and choose package
-  - Click Install
-
+# Install Package Pycharm 3 ways
+1. Install Using Python Interpreter
+  - On Windows: 
+    - File
+    - Settings
+    - Projectname
+    - Python Interpreter
+    - Click the `+`
+    - Search for and choose package
+    - Click Install
+2. Install using the redlight blub, after you add the import statement
+3. Install packages in the terminal from pypi, any packages you find on `https://pypi.org/`
+  - install using `pip`
 __________________________________________________
 
 - [Pandas](./Pandas/Pandas.md): for data manipulation and analysis
