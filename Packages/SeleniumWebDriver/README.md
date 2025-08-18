@@ -2,8 +2,11 @@
 - free tool that allows us to automate the browser, getting the browser to do things automatically depending on a script or a piece of code that we write
 - using a selenium driven browser we can type, click, scroll, search or anything that a human can do on a website
 - can basically build a robot and tell it what to do in a browser
+- [Selenium Docs](https://selenium-python.readthedocs.io/)
+- [Selenium Dev](https://www.selenium.dev/)
 
-# Install and Setup Selenium
+
+# Install, Setup and get started with Selenium
 - Install the selenium package
 - `import selenium`
 - `from selenium import webdriver`
