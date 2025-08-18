@@ -13,6 +13,7 @@
 - serves as the foundation for various locator strategies used to identify specific web elements on a page
 - includes static methods corresponding to different locator strategies, enabling the identification of elements based on their attributes or positions within the HTML structure
 - As an abstract class, `By` cannot be instantiated directly. Instead, its static methods are called using the class name; `By.id()`
+- `from selenium.webdriver.common.by import By`
 - use `By.` followed by the method `By.id()`
     - `name()`, `className()`, `tagName()`, `linkText()`, `partialLinkText()`, `xpath()`, `cssSelector()`
 

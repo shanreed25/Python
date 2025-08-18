@@ -31,3 +31,5 @@
 - you can also close the tabs and quit Chrome programmatically
     - closes a single active tab: `driver.close()`
     - quit the entire browser: `driver.quit()`
+
+- [Find and Locate specific HTML elements on the webpage](./SeleniumWedriver.md)
