@@ -24,3 +24,4 @@
 - [POST](./POST.md)
 - [PUT](./PUT.md)
 - [DELETE](./DELETE.md)
+- [Headers](./HEADERS.md)

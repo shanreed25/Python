@@ -6,6 +6,7 @@
     - [Inheritance](./OOP/Classes/Inheritance.md)
 - [Operations](./Operations/README.md)
     - Slicing
+- [Web Scraping](./WebScraping/README.md)
 - [Iterators and Generators]()
 - [Decorators]()
 - [Context Managers](./ContextManagers/README.md)
