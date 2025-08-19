@@ -1,31 +1,17 @@
 # Functions
 - self-contained block of organized, reusable code designed to perform a specific task
+- break down complex problems into smaller, manageable units, making code easier to understand, debug, and maintain
 - defined independently, not associated with any particular object or class
     - a [method](../Methods/methods.md) is a function that belongs to a class and is defined within that class
+- are defined using the `def` keyword, followed by the function name, parentheses (which may contain parameters), and a colon. The code block within the function is indented
+    - can accept data inputs through **parameters** defined in their definition
+    - when calling the function, values passed to these parameters are known as **arguments**
+    - can optionally return output values using the return statement, if no return statement is present, the function implicitly returns None
 - can be called directly by its name from anywhere in the program where it is in scope
+    - code only executes when it is explicitly called by its name followed by parentheses
 - typically operate on data passed to them as arguments and can return values
 **Functions are general-purpose procedures. They are like tools you can use independently**
 
-## Functions
-- named blocks of reusable code that perform specific tasks
-- You define functions using the def keyword, followed by the function name, parentheses containing optional parameters, and a colon.
-- Functions can take input values (arguments) and optionally return output values using the return statement.
-- Defining and using functions helps to organize your code, make it more modular, and promote reusability. 
-
-_________________________________________________
-#### Definition 
-- Functions are defined using the def keyword, followed by the function name, parentheses (which may contain parameters), and a colon. The code block within the function is indented.
-#### Execution
-- A function's code only executes when it is explicitly called by its name followed by parentheses.
-
-#### Parameters and Arguments
-- Functions can accept data inputs through parameters defined in their definition. When calling the function, values passed to these parameters are known as arguments.
-#### Return Values
-- Functions can return a value or object using the return statement. If no return statement is present, the function implicitly returns None.
-#### Reusability
-- Functions allow the same code logic to be executed multiple times with different inputs, reducing code duplication and making programs more efficient.
-#### Modularity
-- Functions break down complex problems into smaller, manageable units, making code easier to understand, debug, and maintain.
 ________________________________________________________________________
 **Python functions can be categorized into several types based on their origin and behavior**
 - [Built-In Functions](./docs/builtinfunctions.md)
