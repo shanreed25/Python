@@ -9,11 +9,11 @@
 __________________________________________________________________
 
 ### How To Create Decorator Functions
-- A decorator function(`decFunc`) takes the function(`paraFunc`) it is decorating as an argument
-- Inside the decorator, a new "wrapper" function(`wrapperFunc`) is defined
-- This wrapper function(`wrapperFunc`) contains the additional logic you want to apply, and it also calls the original decorated function(`paraFunc`)
-- the decoratorn(`decFunc`) returns this wrapper function(`wrapperFunc`)
-- when the decorated function(`decFunc`) is called, it's actually the wrapper function that executes, incorporating the added behavior
+- A decorator function takes the function it is decorating as an argument
+- Inside the decorator, a new "wrapper" function is defined
+- This wrapper function contains the additional logic you want to apply, and it also calls the original decorated function
+- the decoratorn returns this wrapper function
+- when the decorated function is called, it's actually the wrapper function that executes, incorporating the added behavior
 
 __________________________________________________________________
 
