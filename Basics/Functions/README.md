@@ -14,11 +14,11 @@
 
 ________________________________________________________________________
 **Python functions can be categorized into several types based on their origin and behavior**
-- [Built-In Functions](./docs/builtinfunctions.md)
-    - These are functions pre-defined in Python and readily available for use without any explicit definition. Examples include print(), len(), type(), sum(), min(), and max()
+- [Built-In Functions]()
+    - These are functions pre-defined in Python and readily available for use without any explicit definition. Examples include `print()`, `len()`, `type()`, `sum()`, `min()`, and `max()`
 - [User-defined Functions]()
     - These functions are created by the programmer to perform specific tasks. They are defined using the def keyword, followed by the function name, parameters (if any), and the function body
-- [Higher-Order Functions](./docs/higher-order-functions.md)
+- [Higher-Order Functions]()
     - These functions can take other functions as arguments or return functions as their results. 
 - [Lambda Functions (Anonymous Functions)]()
     - These are small, single-expression functions that do not require a formal def statement. They are defined using the lambda keyword and are often used for short, inline operations
@@ -26,7 +26,7 @@ ________________________________________________________________________
     - These functions call themselves to solve a problem by breaking it down into smaller, similar sub-problems. They require a base case to prevent infinite recursion
 - [Generator Functions:]()
     - These functions use the yield keyword to produce a sequence of values one at a time, rather than returning a single value. They are memory-efficient, especially for large sequences
-- []()
+- [Decorator Functions](./docs/DecoratorFunctions.md)
 - []()
 - []()
 - []()
