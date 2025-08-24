@@ -10,8 +10,13 @@
 - can be called directly by its name from anywhere in the program where it is in scope
     - code only executes when it is explicitly called by its name followed by parentheses
 - typically operate on data passed to them as arguments and can return values
-**Functions are general-purpose procedures. They are like tools you can use independently**
 
+#### Functions are first-class citizens in Python
+- functions are treated like any other object, such as integers, strings, or lists
+- **Assignment to variables** Functions can be assigned to variables, and these variables can then be used to call the function
+- **Passed as arguments** Functions can be passed as arguments to other functions, enabling the creation of higher-order functions and more flexible code
+- **Returned from functions** Functions can be returned as values from other functions, which is a key concept for closures, function factories and decorators
+- **Stored in data structures** Functions can be stored in data structures like lists, dictionaries, or sets
 ________________________________________________________________________
 **Python functions can be categorized into several types based on their origin and behavior**
 - [Built-In Functions]()

@@ -74,3 +74,4 @@
     print(operation_functions["*"](5, 5))
     # Example from Calculator Project
     ```
+

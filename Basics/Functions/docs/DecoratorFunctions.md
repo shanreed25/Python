@@ -24,4 +24,7 @@ __________________________________________________________________
 - **Timing/Profiling:** Measuring the execution time of a function.
 - **Caching/Memoization:** Storing and retrieving the results of expensive function calls to avoid recalculation.
 - **Error Handling:** Wrapping functions with try-except blocks to handle exceptions gracefully.
-- **Separation of Concerns:** Keeping cross-cutting concerns (like logging or security) separate from the core business logic.
+- **Separation of Concerns:** Keeping cross-cutting concerns (like logging or security) separate from the core business logic
+
+### Advance Decorators
+- basic decorators primarily involve a simple wrapper function, advanced decorators introduce more complex scenarios and techniques
