@@ -1,7 +1,3 @@
-
-# print()
-- print is used to display a value to the console for the programmer to see
-
 # Docstring
     You can use docstrings to write multiline comments
 - Just enclose your text inside a pair of three double quotes.
@@ -10,11 +6,6 @@
 - The colon acts as a structural element in Python, guiding the interpreter on how to interpret the code that follows,
 - Especially regarding the organization and execution of code blocks
 - In Python, a colon (:) is used in various ways, but primarily, it serves to indicate the start of an indented block of code or to denote special syntax within expressions. 
-
-
-
-
-
 
 
 - # Rename something and it change for all instances of that name: right click refactor rename

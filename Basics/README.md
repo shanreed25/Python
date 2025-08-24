@@ -10,7 +10,8 @@
 - [Operators](./Operators/README.md)
 - [Functions](./Functions/README.md)
 - [Methods](./Methods/README.md)
-- Input and Output
+- [Input](./BasicInfo/Input.md)
+- [Output](./BasicInfo/Output.md)
 - Comments
 - Indentation
 
