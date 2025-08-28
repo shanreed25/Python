@@ -16,3 +16,6 @@
 ### Data Injection
 - if the template is designed to be rendered with data, often provided as a dictionary or other data structure
 - when the template is processed, the placeholders are replaced with the corresponding values from the provided data
+
+
+- [Templates](./Templates.md)

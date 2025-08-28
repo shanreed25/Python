@@ -13,3 +13,10 @@
 - **Dynamic Adaptation:** By using __name__, Flask can dynamically adapt to whether your application is being run directly as a script or imported as a module within a larger project. 
     - This ensures that Flask can correctly find its resources regardless of how the application is launched.
 - Learn more about the `__name__` variable [here](../../SpecialAttributes.md#__name__)
+
+
+- [Jinja](./Jinja/README.md)
+- [HTML Forms](./HTMLFORMS.md)
+- []()
+- []()
+- []()
