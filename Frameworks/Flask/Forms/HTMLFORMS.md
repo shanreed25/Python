@@ -30,8 +30,9 @@
 - [Requests Docs](https://flask.palletsprojects.com/en/stable/api/#flask.Request)
 
 
-
 - `enctype="multipart/form-data"`: When the form contains file inputs, it must have this encoding set, otherwise the files will not be uploaded and Flask won't see them
 
 
 - see how to Make POST Requests with Flask and HTML Forms [here](https://github.com/shanreed25/Python-Cheatsheet/blob/main/FlaskApplication/docs/flaskApp/server.py#L48)
+
+
