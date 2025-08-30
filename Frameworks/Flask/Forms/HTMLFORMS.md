@@ -1,10 +1,4 @@
-# HTML Forms in Flask: [HTTP Methods](https://flask.palletsprojects.com/en/stable/quickstart/#http-methods)
-- By default, a route only answers to GET requests. You can use the methods argument of the route() decorator to handle different HTTP methods
-- `@app.route('/login', methods=['GET', 'POST'])`
-    - keeps all methods for the route within one function, which can be useful if each part uses some common data
-- `@app.get('/login')` and `@app.post('/login')`
-    - separates views for different methods into different functions
-
+# HTML Forms in Flask: 
 ## action attribute
 - action attribute of the form can be set to the path
     - `<form action="/sendemail" method="post">`
