@@ -1,19 +1,7 @@
 
-
-
-
-### Include statement: {% include %} tag
+### [Include statement: {% include fileName %} tag](./Include.md)
 - template tag used to insert the content of one template file directly into another
-- `{% include "header.html" %}` will insert the entire content of the header.html file at the location where the {% include %} tag is placed in the current template
-- can also pass variables to the included template using the `with` keyword
-- injecting a header.html and footer.html code might look something like this
-    ```
-    {% include "header.html" %}
-    Web page content
-    {% include "footer.html" %}
-    ```
-- primary purpose is to avoid duplicating common elements, such as headers, footers, navigation bars, or sidebars, across multiple web pages. Instead, these elements are defined once in a separate file
-**If you actually want to use the same design template for your entire website, but you might need to change some code in your header or footer. In these cases, it's better to use Template Inheritance instead**
+
 
 
 ## Template Inheritance
