@@ -1,6 +1,4 @@
-# Python
-### Python Basics
-
+# Python: Basics
 **Python basics encompass the fundamental concepts and elements necessary to begin programming in the Python language**
 - [Python Basic](./Basics/README.md)
     - [Input and Output]()
@@ -24,6 +22,7 @@
 - Iterators and Generators
 - Decorators
 - [Context Managers](./BeyondBasics/ContextManagers/)
+- [Working with Databases](./BeyondBasics/databases/README.md)
 - Descriptors
 - Metaclasses
 - Concurrency and Asynchronous Programming
@@ -53,3 +52,8 @@ ______________________________________________________________________
 
 
 Start back at Day 68
+
+
+______________________________
+ 
+
